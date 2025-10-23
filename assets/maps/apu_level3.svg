@@ -48,21 +48,21 @@
   <g transform="translate(120 400)">
     <rect class="zone" width="220" height="150" rx="26" ry="26" />
     <text class="label" x="22" y="58">Auditorium 5</text>
-    <text class="detail" x="22" y="98">Datathon: The ActuaData</text>
+    <text class="detail" x="22" y="98">Datathon: RiskStorm</text>
     <text class="detail" x="22" y="132">12:30 PM – 4:30 PM</text>
   </g>
 
   <g transform="translate(370 400)">
     <rect class="zone" width="200" height="150" rx="26" ry="26" />
     <text class="label" x="22" y="58">Auditorium 4</text>
-    <text class="detail" x="22" y="98">HR Talk &amp; Grooming</text>
+    <text class="detail" x="22" y="98">HR Talk &amp; Grooming Session</text>
     <text class="detail" x="22" y="132">12:30 PM – 4:30 PM</text>
   </g>
 
   <g transform="translate(600 400)">
     <rect class="zone" width="210" height="150" rx="26" ry="26" />
     <text class="label" x="22" y="58">Level 4 Block B</text>
-    <text class="detail" x="22" y="98">HR Interview Simulation</text>
+    <text class="detail" x="22" y="98">HR Interview</text>
     <text class="detail" x="22" y="132">12:30 PM – 4:30 PM</text>
   </g>
 

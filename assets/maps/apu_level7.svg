@@ -22,9 +22,9 @@
     <rect class="zone" width="420" height="260" rx="30" ry="30" />
     <text class="label" x="32" y="70">Auditorium 1</text>
     <text class="detail" x="32" y="110">Opening Ceremony</text>
-    <text class="detail" x="32" y="150">CEO Roundtable</text>
-    <text class="detail" x="32" y="190">Panel Discussion</text>
-    <text class="detail" x="32" y="230">Career Insight Session</text>
+    <text class="detail" x="32" y="150">C-Suite Panel: Technical to Transformational</text>
+    <text class="detail" x="32" y="190">Panel Discussion: Sustainability by Design</text>
+    <text class="detail" x="32" y="230">Industry Contribution Award</text>
   </g>
 
   <g transform="translate(620 210)">

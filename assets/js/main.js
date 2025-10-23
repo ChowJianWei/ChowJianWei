@@ -120,7 +120,7 @@ const schedule = [
   },
   {
     time: '10:50',
-    title: 'CEO Roundtable',
+    title: 'C-Suite Panel: From Technical to Transformational – Actuaries as Business Leaders',
     location: 'Auditorium 1',
     start: '2025-11-01T10:50:00+08:00',
     end: '2025-11-01T11:20:00+08:00',
@@ -129,21 +129,12 @@ const schedule = [
   },
   {
     time: '11:20',
-    title: 'Panel Discussion',
+    title: 'Panel Discussion: Sustainability by Design – Actuaries at the Crossroads of Risk and Responsibility',
     location: 'Auditorium 1',
     start: '2025-11-01T11:20:00+08:00',
     end: '2025-11-01T12:25:00+08:00',
     category: 'Auditorium 1',
     sessionId: 'S-PANEL'
-  },
-  {
-    time: '11:45',
-    title: 'Career Insight Session',
-    location: 'Auditorium 1',
-    start: '2025-11-01T11:45:00+08:00',
-    end: '2025-11-01T12:30:00+08:00',
-    category: 'Auditorium 1',
-    sessionId: 'S-CAREER-INSIGHT'
   },
   {
     time: '12:30',
@@ -156,7 +147,7 @@ const schedule = [
   },
   {
     time: '12:30',
-    title: 'Datathon: The ActuaData',
+    title: 'Datathon: RiskStorm',
     location: 'Auditorium 5',
     start: '2025-11-01T12:30:00+08:00',
     end: '2025-11-01T16:30:00+08:00',
@@ -445,51 +436,42 @@ const eventData = {
     },
     {
       id: 'S-CEO',
-      title: 'CEO Roundtable',
+      title: 'C-Suite Panel: From Technical to Transformational – Actuaries as Business Leaders',
       track: 'Auditorium 1',
       start: '2025-11-01T10:50:00+08:00',
       end: '2025-11-01T11:20:00+08:00',
       room: 'Auditorium 1 (Level 7)',
       location: 'Main Hall, Auditorium 1',
-      description: 'Executive leaders explore how actuarial expertise drives strategic decisions across industries.',
-      speakers: [],
-      resources: []
-    },
-    {
-      id: 'S-PANEL',
-      title: 'Panel Discussion',
-      track: 'Auditorium 1',
-      start: '2025-11-01T11:20:00+08:00',
-      end: '2025-11-01T12:25:00+08:00',
-      room: 'Auditorium 1 (Level 7)',
-      location: 'Main Hall, Auditorium 1',
-      description: 'Insurance professionals discuss climate change impacts, risk management, and opportunities for actuarial leadership.',
+      description:
+        'Executive leaders explore how actuarial expertise evolves from technical mastery to transformational business leadership.',
       speakers: [],
       resources: [],
       featured: true
     },
     {
-      id: 'S-CAREER-INSIGHT',
-      title: 'Career Insight Session',
+      id: 'S-PANEL',
+      title: 'Panel Discussion: Sustainability by Design – Actuaries at the Crossroads of Risk and Responsibility',
       track: 'Auditorium 1',
-      start: '2025-11-01T11:45:00+08:00',
-      end: '2025-11-01T12:30:00+08:00',
+      start: '2025-11-01T11:20:00+08:00',
+      end: '2025-11-01T12:25:00+08:00',
       room: 'Auditorium 1 (Level 7)',
       location: 'Main Hall, Auditorium 1',
-      description: 'Actuarial professionals share journeys across traditional and emerging roles with time for Q&A.',
+      description:
+        'Insurance professionals discuss climate change impacts, risk management, and opportunities for actuarial leadership in sustainability.',
       speakers: [],
       resources: [],
       featured: true
     },
     {
       id: 'S-DATATHON',
-      title: 'Datathon: The ActuaData',
+      title: 'Datathon: RiskStorm',
       track: 'Auditorium 5',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
       room: 'Auditorium 5 (Level 3)',
       location: 'Competition Hall, Auditorium 5',
-      description: 'Undergraduate teams apply actuarial modelling and data analytics to solve real-world insurance challenges.',
+      description:
+        'Undergraduate teams apply actuarial modelling and data analytics to solve real-world insurance challenges across the RiskStorm brief.',
       speakers: [],
       resources: [],
       featured: true
@@ -682,7 +664,8 @@ const eventData = {
         floor: 'level7',
         coordinates: { x: 52, y: 45 },
         hours: '9:00 AM – 12:30 PM',
-        notes: 'Opening ceremony, CEO Roundtable, Panel Discussion, and Career Insight Session.'
+        notes:
+          'Opening ceremony, C-Suite leadership panel, and the sustainability-focused panel discussion take place here.'
       },
       {
         id: 'POI-AUD5',
@@ -691,7 +674,7 @@ const eventData = {
         floor: 'level3',
         coordinates: { x: 24, y: 42 },
         hours: '12:30 PM – 4:30 PM',
-        notes: 'Competition hall for Datathon: The ActuaData finals.'
+        notes: 'Competition hall for Datathon: RiskStorm finals.'
       },
       {
         id: 'POI-AUD4',
@@ -768,7 +751,7 @@ const eventData = {
     ],
     whyJoin: [
       'Connect with a community of aspiring actuaries by building meaningful peer networks across institutions.',
-      'Engage with industry insights and real-world applications through curated sessions such as the Panel Discussion and Mentor Hot Seat.',
+      'Engage with industry insights and real-world applications through curated sessions such as the Panel Discussion: Sustainability by Design – Actuaries at the Crossroads of Risk and Responsibility and the Mentor Hot Seat.',
       'Develop leadership and communication skills by contributing as university representatives, volunteers, or competition participants.',
       'Be part of a purpose-driven student initiative designed to provide practical value through learning, dialogue, and collaboration.'
     ],
@@ -783,14 +766,13 @@ come together to shape a sustainable future 🌍✨<br /><br />
 💸 Entrance Fee: FREE – secure your spot today!<br /><br />
 <strong>🔥 Event Highlights 🔥</strong><br />
 🎯 Showcase & Finals<br />
-✅ Datathon: The ActuaData<br />
+✅ Datathon: RiskStorm<br />
 ✅ Poster Competition<br /><br />
 🎓 Free Entrance Experiences<br />
 ✅ HR Do’s & Don’ts + Grooming Session<br />
 ✅ Mentor Hot Seat<br />
-✅ CEO Roundtable<br />
-✅ Panel Discussion<br />
-✅ Career Insight Session<br />
+✅ C-Suite Panel: From Technical to Transformational – Actuaries as Business Leaders<br />
+✅ Panel Discussion: Sustainability by Design – Actuaries at the Crossroads of Risk and Responsibility<br />
 ✅ Career Fair<br />
 ✅ HR Interview<br />
 ✅ Campus Visit (APU Student Services)<br />
@@ -867,6 +849,10 @@ const mapState = { scale: 1, translateX: 0, translateY: 0 };
 let mapStage;
 let featuredIndex = 0;
 let featuredResizeHandler = null;
+const MAP_MIN_SCALE = 1;
+const MAP_MAX_SCALE = 3;
+const MAP_SCALE_STEP = 0.2;
+const mapZoomButtons = { in: null, out: null };
 
 const formatTimeRange = (startISO, endISO, includeDate = true) => {
   if (!startISO || !endISO) return '';
@@ -1021,15 +1007,28 @@ const renderFeaturedSessions = () => {
     dots.appendChild(dot);
   });
 
+  const getSlideMetrics = () => {
+    const firstSlide = track.querySelector('.carousel-slide');
+    if (!firstSlide) {
+      return { width: 0, gap: 0 };
+    }
+    const { width } = firstSlide.getBoundingClientRect();
+    const style = window.getComputedStyle(track);
+    const gap = Number.parseFloat(style.columnGap || style.gap || '0');
+    return { width, gap: Number.isNaN(gap) ? 0 : gap };
+  };
+
   const sync = () => {
     const slidesPerView = getSlidesPerView();
-    const maxIndex = Math.max(0, slides.length - slidesPerView);
+    const slideElements = Array.from(track.querySelectorAll('.carousel-slide'));
+    const maxIndex = Math.max(0, slideElements.length - slidesPerView);
     if (featuredIndex > maxIndex) {
       featuredIndex = maxIndex;
     }
     track.style.setProperty('--slides-per-view', slidesPerView);
-    const shiftPercent = slides.length ? (featuredIndex * 100) / slides.length : 0;
-    track.style.transform = `translateX(-${shiftPercent}%)`;
+    const { width, gap } = getSlideMetrics();
+    const offset = featuredIndex * (width + gap);
+    track.style.transform = `translateX(-${offset}px)`;
     prev.disabled = featuredIndex === 0;
     next.disabled = featuredIndex >= maxIndex;
     Array.from(dots.children).forEach((dot, idx) => {
@@ -1059,6 +1058,53 @@ const renderFeaturedSessions = () => {
     featuredIndex = Math.min(Number(button.dataset.index), maxIndex);
     sync();
   };
+
+  const pointerState = {
+    id: null,
+    startX: 0,
+    active: false
+  };
+
+  const onPointerDown = (event) => {
+    if (event.pointerType === 'mouse' && event.button !== 0) return;
+    pointerState.id = event.pointerId;
+    pointerState.startX = event.clientX;
+    pointerState.active = true;
+    if (typeof track.setPointerCapture === 'function') {
+      track.setPointerCapture(event.pointerId);
+    }
+  };
+
+  const onPointerUp = (event) => {
+    if (!pointerState.active || event.pointerId !== pointerState.id) return;
+    const deltaX = event.clientX - pointerState.startX;
+    if (Math.abs(deltaX) > 40) {
+      if (deltaX < 0) {
+        next.click();
+      } else {
+        prev.click();
+      }
+    }
+    if (track.hasPointerCapture(event.pointerId)) {
+      track.releasePointerCapture(event.pointerId);
+    }
+    pointerState.active = false;
+    pointerState.id = null;
+  };
+
+  const onPointerCancel = (event) => {
+    if (!pointerState.active || event.pointerId !== pointerState.id) return;
+    if (track.hasPointerCapture(event.pointerId)) {
+      track.releasePointerCapture(event.pointerId);
+    }
+    pointerState.active = false;
+    pointerState.id = null;
+  };
+
+  track.addEventListener('pointerdown', onPointerDown);
+  track.addEventListener('pointerup', onPointerUp);
+  track.addEventListener('pointercancel', onPointerCancel);
+  track.addEventListener('pointerleave', onPointerCancel);
 
   if (featuredResizeHandler) {
     window.removeEventListener('resize', featuredResizeHandler);
@@ -1224,6 +1270,46 @@ const updateFloorButtons = () => {
   });
 };
 
+const updateZoomButtons = () => {
+  if (!mapZoomButtons.in || !mapZoomButtons.out) return;
+  mapZoomButtons.in.disabled = mapState.scale >= MAP_MAX_SCALE - 0.01;
+  mapZoomButtons.out.disabled = mapState.scale <= MAP_MIN_SCALE + 0.01;
+};
+
+const setMapScale = (nextScale) => {
+  const clamped = Math.min(Math.max(nextScale, MAP_MIN_SCALE), MAP_MAX_SCALE);
+  if (clamped === mapState.scale) return;
+  mapState.scale = clamped;
+  applyMapTransform();
+  updateZoomButtons();
+};
+
+const renderMapZoomControls = () => {
+  const controls = document.getElementById('mapZoomControls');
+  if (!controls) return;
+  controls.innerHTML = '';
+
+  const zoomIn = document.createElement('button');
+  zoomIn.type = 'button';
+  zoomIn.className = 'map-zoom-button';
+  zoomIn.textContent = '+';
+  zoomIn.setAttribute('aria-label', 'Zoom in on map');
+  zoomIn.addEventListener('click', () => setMapScale(mapState.scale + MAP_SCALE_STEP));
+
+  const zoomOut = document.createElement('button');
+  zoomOut.type = 'button';
+  zoomOut.className = 'map-zoom-button';
+  zoomOut.textContent = '–';
+  zoomOut.setAttribute('aria-label', 'Zoom out of map');
+  zoomOut.addEventListener('click', () => setMapScale(mapState.scale - MAP_SCALE_STEP));
+
+  controls.appendChild(zoomIn);
+  controls.appendChild(zoomOut);
+  mapZoomButtons.in = zoomIn;
+  mapZoomButtons.out = zoomOut;
+  updateZoomButtons();
+};
+
 const clampMapTransform = () => {
   const mapCanvas = document.getElementById('mapCanvas');
   if (!mapCanvas) return;
@@ -1249,10 +1335,11 @@ const applyMapTransform = () => {
 };
 
 const resetMapTransform = () => {
-  mapState.scale = 1;
+  mapState.scale = MAP_MIN_SCALE;
   mapState.translateX = 0;
   mapState.translateY = 0;
   applyMapTransform();
+  updateZoomButtons();
 };
 
 const setActiveFloor = (floorId, poiId = null) => {
@@ -1323,6 +1410,7 @@ const renderMap = () => {
   mapCanvas.appendChild(stage);
   mapStage = stage;
   resetMapTransform();
+  renderMapZoomControls();
 };
 
 const renderPOIs = () => {
@@ -1400,49 +1488,94 @@ const updatePoiDetail = (poiId, allowFloorSwitch = true) => {
 const initMapInteractions = () => {
   const mapCanvas = document.getElementById('mapCanvas');
   if (!mapCanvas) return;
+  const activePointers = new Map();
   let isDragging = false;
-  let activePointer = null;
   let originX = 0;
   let originY = 0;
+  let pinchStartDistance = null;
+  let pinchStartScale = MAP_MIN_SCALE;
+
+  const updateOriginFromPointer = (pointer) => {
+    originX = pointer.x - mapState.translateX;
+    originY = pointer.y - mapState.translateY;
+  };
 
   mapCanvas.addEventListener('pointerdown', (event) => {
     if (!mapStage || event.target.closest('.map-marker')) return;
-    isDragging = true;
-    activePointer = event.pointerId;
-    originX = event.clientX - mapState.translateX;
-    originY = event.clientY - mapState.translateY;
-    mapCanvas.setPointerCapture(activePointer);
+    if (typeof mapCanvas.setPointerCapture === 'function') {
+      mapCanvas.setPointerCapture(event.pointerId);
+    }
+    activePointers.set(event.pointerId, { x: event.clientX, y: event.clientY });
+
+    if (activePointers.size === 1) {
+      const pointer = activePointers.get(event.pointerId);
+      if (!pointer) return;
+      isDragging = true;
+      updateOriginFromPointer(pointer);
+    } else if (activePointers.size === 2) {
+      isDragging = false;
+      const pointers = Array.from(activePointers.values());
+      pinchStartDistance = Math.hypot(pointers[1].x - pointers[0].x, pointers[1].y - pointers[0].y);
+      pinchStartScale = mapState.scale;
+    }
   });
 
   mapCanvas.addEventListener('pointermove', (event) => {
-    if (!isDragging || event.pointerId !== activePointer) return;
-    mapState.translateX = event.clientX - originX;
-    mapState.translateY = event.clientY - originY;
-    applyMapTransform();
+    const pointer = activePointers.get(event.pointerId);
+    if (!pointer) return;
+    pointer.x = event.clientX;
+    pointer.y = event.clientY;
+
+    if (activePointers.size === 2) {
+      const pointers = Array.from(activePointers.values());
+      const distance = Math.hypot(pointers[1].x - pointers[0].x, pointers[1].y - pointers[0].y);
+      if (pinchStartDistance && distance > 0) {
+        const scaleFactor = distance / pinchStartDistance;
+        setMapScale(pinchStartScale * scaleFactor);
+      }
+    } else if (isDragging) {
+      mapState.translateX = pointer.x - originX;
+      mapState.translateY = pointer.y - originY;
+      applyMapTransform();
+    }
   });
 
-  const endPan = (event) => {
-    if (isDragging && activePointer !== null) {
-      mapCanvas.releasePointerCapture(activePointer);
+  const releasePointer = (event) => {
+    if (activePointers.has(event.pointerId)) {
+      if (typeof mapCanvas.releasePointerCapture === 'function') {
+        if (!mapCanvas.hasPointerCapture || mapCanvas.hasPointerCapture(event.pointerId)) {
+          mapCanvas.releasePointerCapture(event.pointerId);
+        }
+      }
+      activePointers.delete(event.pointerId);
     }
-    isDragging = false;
-    activePointer = null;
+
+    if (activePointers.size === 0) {
+      isDragging = false;
+      pinchStartDistance = null;
+    } else if (activePointers.size === 1) {
+      const [remaining] = activePointers.values();
+      if (remaining) {
+        isDragging = true;
+        pinchStartDistance = null;
+        updateOriginFromPointer(remaining);
+      }
+    }
   };
 
-  mapCanvas.addEventListener('pointerup', endPan);
-  mapCanvas.addEventListener('pointerleave', endPan);
-  mapCanvas.addEventListener('pointercancel', endPan);
+  mapCanvas.addEventListener('pointerup', releasePointer);
+  mapCanvas.addEventListener('pointercancel', releasePointer);
+  mapCanvas.addEventListener('pointerleave', (event) => {
+    if (!activePointers.has(event.pointerId)) return;
+    releasePointer(event);
+  });
 
   mapCanvas.addEventListener(
     'wheel',
     (event) => {
       event.preventDefault();
-      const direction = event.deltaY > 0 ? -0.1 : 0.1;
-      const newScale = Math.min(Math.max(mapState.scale + direction, 1), 2.5);
-      if (newScale !== mapState.scale) {
-        mapState.scale = newScale;
-        applyMapTransform();
-      }
+      const direction = event.deltaY > 0 ? -MAP_SCALE_STEP : MAP_SCALE_STEP;
+      setMapScale(mapState.scale + direction);
     },
     { passive: false }
   );
@@ -1605,21 +1738,62 @@ const initNewsletterForms = () => {
 const initNav = () => {
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.getElementById('primaryNav');
+  if (!toggle || !nav) return;
+  toggle.setAttribute('aria-expanded', 'false');
+
+  const closeNav = ({ restoreFocus } = { restoreFocus: false }) => {
+    if (!nav.classList.contains('is-open')) return;
+    nav.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+    if (restoreFocus) {
+      toggle.focus();
+    }
+  };
+
+  const openNav = () => {
+    if (nav.classList.contains('is-open')) return;
+    nav.classList.add('is-open');
+    toggle.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+  };
+
   toggle.addEventListener('click', () => {
-    const isOpen = nav.classList.toggle('is-open');
-    toggle.setAttribute('aria-expanded', String(isOpen));
-    document.body.style.overflow = isOpen ? 'hidden' : '';
+    if (nav.classList.contains('is-open')) {
+      closeNav();
+    } else {
+      openNav();
+    }
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!nav.classList.contains('is-open')) return;
+    if (event.target === toggle || toggle.contains(event.target)) return;
+    if (nav.contains(event.target)) return;
+    closeNav();
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeNav({ restoreFocus: true });
+    }
   });
 
   nav.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      if (nav.classList.contains('is-open')) {
-        nav.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
-      }
-    });
+    link.addEventListener('click', () => closeNav());
   });
+
+  const mq = window.matchMedia('(min-width: 1024px)');
+  const handleMediaChange = (event) => {
+    if (event.matches) {
+      closeNav();
+    }
+  };
+  if (typeof mq.addEventListener === 'function') {
+    mq.addEventListener('change', handleMediaChange);
+  } else if (typeof mq.addListener === 'function') {
+    mq.addListener(handleMediaChange);
+  }
 };
 
 const initScheduleInteractions = () => {
