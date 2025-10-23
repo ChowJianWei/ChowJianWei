@@ -4,12 +4,12 @@ const eventData = {
   metadata: {
     name: 'The Actuarial Summit 2025',
     tagline: 'Advancing Actuarial Excellence for a Sustainable Future',
-    dates: 'Saturday, 11 October 2025 • 8:00 AM – 5:30 PM',
+    dates: 'Saturday, 1 November 2025 • 8:00 AM – 5:30 PM',
     timezone: 'Malaysia Time (MYT)',
     venue: 'Asia Pacific University of Technology & Innovation (APU) Campus',
-    registrationUrl: null,
+    registrationUrl: 'https://forms.office.com/e/PQkpt7dnsL',
     livestreamUrl: null,
-    startDate: '2025-10-11T08:00:00+08:00'
+    startDate: '2025-11-01T08:00:00+08:00'
   },
   quickFacts: [
     {
@@ -18,7 +18,7 @@ const eventData = {
     },
     {
       label: 'Date & Time',
-      value: 'Saturday, 11 October 2025 • 8:00 AM – 5:30 PM'
+      value: 'Saturday, 1 November 2025 • 8:00 AM – 5:30 PM'
     },
     {
       label: 'Venue',
@@ -27,6 +27,10 @@ const eventData = {
     {
       label: 'Organised By',
       value: 'Asia Pacific University of Technology & Innovation (APU) & Institute and Faculty of Actuaries Student Ambassadors (IFoA SA)'
+    },
+    {
+      label: 'Entrance Fee',
+      value: 'Free admission for all participants'
     },
     {
       label: 'Target Participants',
@@ -53,8 +57,8 @@ const eventData = {
       id: 'S-REG',
       title: 'Registration of Participants',
       track: 'Level 8 Block E',
-      start: '2025-10-11T08:00:00+08:00',
-      end: '2025-10-11T09:00:00+08:00',
+      start: '2025-11-01T08:00:00+08:00',
+      end: '2025-11-01T09:00:00+08:00',
       room: 'Level 8, Block E',
       location: 'Registration Zone',
       description: 'Check in for The Actuarial Summit 2025 and collect event materials before the day begins.',
@@ -65,8 +69,8 @@ const eventData = {
       id: 'S-OPEN',
       title: 'Opening Ceremony',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T09:00:00+08:00',
-      end: '2025-10-11T09:05:00+08:00',
+      start: '2025-11-01T09:00:00+08:00',
+      end: '2025-11-01T09:05:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'Official opening of The Actuarial Summit 2025 in Auditorium 1.',
@@ -77,8 +81,8 @@ const eventData = {
       id: 'S-ANTHEM',
       title: 'National Anthem',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T09:05:00+08:00',
-      end: '2025-10-11T09:10:00+08:00',
+      start: '2025-11-01T09:05:00+08:00',
+      end: '2025-11-01T09:10:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'The summit opens with the national anthem in Auditorium 1.',
@@ -89,8 +93,8 @@ const eventData = {
       id: 'S-DOA',
       title: 'Doa Recitation',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T09:10:00+08:00',
-      end: '2025-10-11T09:15:00+08:00',
+      start: '2025-11-01T09:10:00+08:00',
+      end: '2025-11-01T09:15:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'A doa recitation sets the tone for a reflective and collaborative summit.',
@@ -101,8 +105,8 @@ const eventData = {
       id: 'S-SPEECH-YB',
       title: 'Opening Speech by YB Dato Seri DiRaja Dr. Zambry Abdul Kadir',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T09:15:00+08:00',
-      end: '2025-10-11T09:25:00+08:00',
+      start: '2025-11-01T09:15:00+08:00',
+      end: '2025-11-01T09:25:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'Opening speech delivered by YB Dato Seri DiRaja Dr. Zambry Abdul Kadir, Minister of Higher Education (Malaysia).',
@@ -113,8 +117,8 @@ const eventData = {
       id: 'S-SPEECH-PARMJIT',
       title: 'Opening Speech by Datuk Parmjit Singh',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T09:25:00+08:00',
-      end: '2025-10-11T09:35:00+08:00',
+      start: '2025-11-01T09:25:00+08:00',
+      end: '2025-11-01T09:35:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'Datuk Parmjit Singh shares a welcome from Asia Pacific University of Technology & Innovation (APU).',
@@ -125,8 +129,8 @@ const eventData = {
       id: 'S-SPEECH-IFOA',
       title: 'Speech by IFoA President',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T09:35:00+08:00',
-      end: '2025-10-11T09:45:00+08:00',
+      start: '2025-11-01T09:35:00+08:00',
+      end: '2025-11-01T09:45:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'Institute and Faculty of Actuaries (IFoA) President addresses students and industry guests.',
@@ -137,8 +141,8 @@ const eventData = {
       id: 'S-SPEECH-ASM',
       title: 'Speech by ASM President',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T09:45:00+08:00',
-      end: '2025-10-11T09:55:00+08:00',
+      start: '2025-11-01T09:45:00+08:00',
+      end: '2025-11-01T09:55:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'Actuarial Society of Malaysia (ASM) President shares closing remarks for the morning address block.',
@@ -149,8 +153,8 @@ const eventData = {
       id: 'S-GIMMICK',
       title: 'Execution of Gimmick',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T09:55:00+08:00',
-      end: '2025-10-11T10:05:00+08:00',
+      start: '2025-11-01T09:55:00+08:00',
+      end: '2025-11-01T10:05:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'Ceremonial gimmick to officially signal the start of the summit.',
@@ -161,8 +165,8 @@ const eventData = {
       id: 'S-VIDEO',
       title: 'Opening Ceremony Video',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T10:05:00+08:00',
-      end: '2025-10-11T10:10:00+08:00',
+      start: '2025-11-01T10:05:00+08:00',
+      end: '2025-11-01T10:10:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'Opening ceremony video presentation for The Actuarial Summit 2025.',
@@ -173,8 +177,8 @@ const eventData = {
       id: 'S-AWARD',
       title: 'Industry Contribution Award',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T10:10:00+08:00',
-      end: '2025-10-11T10:20:00+08:00',
+      start: '2025-11-01T10:10:00+08:00',
+      end: '2025-11-01T10:20:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'Recognition of industry contributions before the afternoon programming begins.',
@@ -185,8 +189,8 @@ const eventData = {
       id: 'S-REFRESH',
       title: 'Refreshment Break',
       track: 'Level 8 Block E',
-      start: '2025-10-11T10:20:00+08:00',
-      end: '2025-10-11T10:50:00+08:00',
+      start: '2025-11-01T10:20:00+08:00',
+      end: '2025-11-01T10:50:00+08:00',
       room: 'Level 8, Block E',
       location: 'Refreshment Area',
       description: 'Refreshment break on Level 8, Block E for all attendees and VIP guests.',
@@ -197,8 +201,8 @@ const eventData = {
       id: 'S-CEO',
       title: 'CEO Roundtable',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T10:50:00+08:00',
-      end: '2025-10-11T11:20:00+08:00',
+      start: '2025-11-01T10:50:00+08:00',
+      end: '2025-11-01T11:20:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: 'Executive leaders convene in Auditorium 1 for the CEO Roundtable ahead of the climate discussion.',
@@ -209,8 +213,8 @@ const eventData = {
       id: 'S-PANEL',
       title: 'Panel Discussion: Climate Change & the Insurance Industry',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T11:20:00+08:00',
-      end: '2025-10-11T12:25:00+08:00',
+      start: '2025-11-01T11:20:00+08:00',
+      end: '2025-11-01T12:25:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: `Professionals from the insurance industry share insights on current climate change impacts, explore emerging trends and challenges, and host an interactive Q&A followed by networking with participants.`,
@@ -222,8 +226,8 @@ const eventData = {
       id: 'S-CAREER-INSIGHT',
       title: 'Career Insight Session',
       track: 'Auditorium 1 Programme',
-      start: '2025-10-11T11:45:00+08:00',
-      end: '2025-10-11T12:30:00+08:00',
+      start: '2025-11-01T11:45:00+08:00',
+      end: '2025-11-01T12:30:00+08:00',
       room: 'Auditorium 1',
       location: 'Main Hall',
       description: `Actuarial professionals share career journeys across traditional and non-traditional roles, highlight global opportunities, and engage students through open Q&A discussions.`,
@@ -235,8 +239,8 @@ const eventData = {
       id: 'S-DATATHON',
       title: 'Datathon: The ActuaData',
       track: 'Auditorium 5',
-      start: '2025-10-11T12:30:00+08:00',
-      end: '2025-10-11T16:30:00+08:00',
+      start: '2025-11-01T12:30:00+08:00',
+      end: '2025-11-01T16:30:00+08:00',
       room: 'Auditorium 5',
       location: 'Competition Hall',
       description: `Undergraduate teams across Malaysia solve real-world general insurance challenges, submit code, and present findings with support from an accompanying Power BI workshop.`,
@@ -248,8 +252,8 @@ const eventData = {
       id: 'S-HR-TALK',
       title: "HR Talk on Do's and Don'ts & Grooming Session",
       track: 'Auditorium 4',
-      start: '2025-10-11T12:30:00+08:00',
-      end: '2025-10-11T16:30:00+08:00',
+      start: '2025-11-01T12:30:00+08:00',
+      end: '2025-11-01T16:30:00+08:00',
       room: 'Auditorium 4',
       location: 'Auditorium 4',
       description: "HR professionals provide guidance on workplace behaviour, communication, interview etiquette, and grooming expectations for aspiring actuaries.",
@@ -260,8 +264,8 @@ const eventData = {
       id: 'S-HR-INTERVIEW',
       title: 'HR Interview Simulation',
       track: 'Level 4 Block B',
-      start: '2025-10-11T12:30:00+08:00',
-      end: '2025-10-11T16:30:00+08:00',
+      start: '2025-11-01T12:30:00+08:00',
+      end: '2025-11-01T16:30:00+08:00',
       room: 'Level 4, Block B Classrooms',
       location: 'Interview Rooms',
       description: 'Structured mock interviews provide actuarial students with personalised feedback from HR representatives and actuaries ahead of internship and job applications.',
@@ -272,8 +276,8 @@ const eventData = {
       id: 'S-MENTOR',
       title: 'Mentor Hot Seat',
       track: 'Atrium',
-      start: '2025-10-11T12:30:00+08:00',
-      end: '2025-10-11T16:30:00+08:00',
+      start: '2025-11-01T12:30:00+08:00',
+      end: '2025-11-01T16:30:00+08:00',
       room: 'Atrium',
       location: 'Mentor Stations',
       description: 'Rotational conversations connect students with working actuaries for concise career guidance, industry insights, and networking opportunities.',
@@ -285,8 +289,8 @@ const eventData = {
       id: 'S-CAREER-FAIR',
       title: 'Career Fair',
       track: 'Atrium',
-      start: '2025-10-11T12:30:00+08:00',
-      end: '2025-10-11T16:30:00+08:00',
+      start: '2025-11-01T12:30:00+08:00',
+      end: '2025-11-01T16:30:00+08:00',
       room: 'Atrium',
       location: 'Career Fair Booths',
       description: 'Companies host booths to discuss internships, job opportunities, and working cultures with actuarial students.',
@@ -297,8 +301,8 @@ const eventData = {
       id: 'S-POSTER',
       title: 'Poster Competition',
       track: 'Atrium',
-      start: '2025-10-11T12:30:00+08:00',
-      end: '2025-10-11T16:30:00+08:00',
+      start: '2025-11-01T12:30:00+08:00',
+      end: '2025-11-01T16:30:00+08:00',
       room: 'Atrium',
       location: 'Poster Displays',
       description: 'Students showcase actuarial research and innovations on partition boards with judging and participant voting.',
@@ -309,8 +313,8 @@ const eventData = {
       id: 'S-CAMPUS-VISIT',
       title: 'Campus Visit with APU Student Services',
       track: 'Campus Experience',
-      start: '2025-10-11T12:30:00+08:00',
-      end: '2025-10-11T16:30:00+08:00',
+      start: '2025-11-01T12:30:00+08:00',
+      end: '2025-11-01T16:30:00+08:00',
       room: 'APU Campus',
       location: 'Meet at Student Services',
       description: 'Guided campus visit coordinated by APU Student Services during the afternoon programme.',
@@ -321,8 +325,8 @@ const eventData = {
       id: 'S-PHOTO',
       title: 'Photo Booth (Professional & Fun)',
       track: 'Atrium',
-      start: '2025-10-11T12:30:00+08:00',
-      end: '2025-10-11T16:30:00+08:00',
+      start: '2025-11-01T12:30:00+08:00',
+      end: '2025-11-01T16:30:00+08:00',
       room: 'Atrium',
       location: 'Photo Booth Area',
       description: 'Professional and fun photo booth sessions for attendees throughout the afternoon.',
@@ -333,8 +337,8 @@ const eventData = {
       id: 'S-TOA',
       title: 'TOA Presentation and Prize Giving Ceremony',
       track: 'Atrium',
-      start: '2025-10-11T16:30:00+08:00',
-      end: '2025-10-11T17:00:00+08:00',
+      start: '2025-11-01T16:30:00+08:00',
+      end: '2025-11-01T17:00:00+08:00',
       room: 'Atrium',
       location: 'Main Stage',
       description: 'Presentation of results and prizes for summit competitions at the Atrium stage.',
@@ -345,8 +349,8 @@ const eventData = {
       id: 'S-CLOSING',
       title: 'Lucky Draw & Closing',
       track: 'Atrium',
-      start: '2025-10-11T17:00:00+08:00',
-      end: '2025-10-11T17:30:00+08:00',
+      start: '2025-11-01T17:00:00+08:00',
+      end: '2025-11-01T17:30:00+08:00',
       room: 'Atrium',
       location: 'Main Stage',
       description: 'Lucky draw and closing remarks to conclude The Actuarial Summit 2025.',
@@ -486,7 +490,36 @@ const eventData = {
       'Be part of a purpose-driven student initiative designed to provide practical value through learning, dialogue, and collaboration.'
     ],
     volunteer: 'Volunteers assist with timekeeping and session transitions during the Mentor Hot Seat.',
-    social: 'Promotional posters and updates are shared through The Actuarial Summit 2025’s Instagram account.'
+    social: '',
+    socialHtml: `
+<strong>The Actuarial Summit 2025 – Registration NOW OPEN! 🌟</strong><br /><br />
+The wait is finally over! 🎉 Join us at the annual Actuarial Summit where actuarial students, professionals, and future leaders come together to shape a Sustainable Future 🌍✨<br /><br />
+📅 Date: 1 November 2025 (Saturday)<br />
+📍 Venue: Asia Pacific University, Kuala Lumpur<br />
+💸 Entrance Fee: FREE – secure your spot today!<br /><br />
+<strong>🔥 Event Highlights 🔥</strong><br />
+🎯 Showcase & Finals<br />
+✅ Datathon: RiskStorm<br />
+✅ SustainaMetrics: ESG Poster Challenge<br /><br />
+🎓 Free Entrance<br />
+✅ HR Do’s & Don’ts + Grooming Session<br />
+✅ Mentor Hot Seat<br />
+✅ C-Suite Panel: From Technical to Transformational – Actuaries as Business Leaders<br />
+✅ Panel Discussion: Sustainability by Design – Actuaries at the Crossroads of Risk and Responsibility<br />
+✅ Career Fair + HR Interview Simulation (Open to Public!)<br />
+✅ Campus Visit (in collaboration with APU Student Service)<br />
+✅ Professional Photo Booth<br /><br />
+🔗 Secure your spot now!<br />
+<a href="https://forms.office.com/e/PQkpt7dnsL" target="_blank" rel="noopener">https://forms.office.com/e/PQkpt7dnsL</a><br /><br />
+Limited slots available! Register now via the QR code on the poster & don’t miss this transformative experience.<br /><br />
+📍 <a href="https://maps.app.goo.gl/HQxGSTwfRuNsJGpa7?g_st=ipc" target="_blank" rel="noopener">Google Maps</a><br />
+🚙 <a href="https://waze.com/ul/hw2836hpsm" target="_blank" rel="noopener">Waze</a><br /><br />
+📱 Stay Updated<br />
+Instagram: <a href="https://www.instagram.com/theactuarialsummit2025" target="_blank" rel="noopener">@theactuarialsummit2025</a><br />
+Email: <a href="mailto:theactuarialsummit@gmail.com">theactuarialsummit@gmail.com</a><br />
+Beacons: <a href="https://beacons.ai/tacs25?__v=t1758436114774" target="_blank" rel="noopener">https://beacons.ai/tacs25?__v=t1758436114774</a><br /><br />
+#TACS2025 #AdvancingActuarialExcellence #RegistrationOpen
+    `
   },
   sponsors: [
     {
@@ -600,7 +633,38 @@ const eventData = {
     { label: 'APU Vice Chancellor', value: 'Prof. Dr. Ho Chin Kuan', href: null },
     { label: 'APU Chief Operating Officer', value: 'Mr Gurpardeep Singh', href: null }
   ],
-  socialLinks: []
+  socialLinks: [
+    {
+      label: 'Register for The Actuarial Summit 2025',
+      icon: '📝',
+      url: 'https://forms.office.com/e/PQkpt7dnsL'
+    },
+    {
+      label: 'Instagram: @theactuarialsummit2025',
+      icon: '📸',
+      url: 'https://www.instagram.com/theactuarialsummit2025'
+    },
+    {
+      label: 'Email theactuarialsummit@gmail.com',
+      icon: '✉️',
+      url: 'mailto:theactuarialsummit@gmail.com'
+    },
+    {
+      label: 'Beacons hub for TACS2025',
+      icon: '🔗',
+      url: 'https://beacons.ai/tacs25?__v=t1758436114774'
+    },
+    {
+      label: 'Google Maps directions to APU Campus',
+      icon: '📍',
+      url: 'https://maps.app.goo.gl/HQxGSTwfRuNsJGpa7?g_st=ipc'
+    },
+    {
+      label: 'Waze directions to APU Campus',
+      icon: '🚙',
+      url: 'https://waze.com/ul/hw2836hpsm'
+    }
+  ]
 };
 
 let activeTrack = 'all';
@@ -936,7 +1000,15 @@ const renderCommunity = () => {
   });
 
   volunteer.textContent = eventData.community.volunteer;
-  social.textContent = eventData.community.social;
+
+  if (eventData.community.socialHtml) {
+    const socialHtml = eventData.community.socialHtml.trim().replace(/\n\s+/g, '\n');
+    social.innerHTML = socialHtml;
+  } else if (eventData.community.social) {
+    social.textContent = eventData.community.social;
+  } else {
+    social.textContent = '';
+  }
 };
 
 const renderFooter = () => {
