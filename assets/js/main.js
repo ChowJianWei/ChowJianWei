@@ -56,11 +56,11 @@ const eventData = {
     {
       id: 'S-REG',
       title: 'Registration of Participants',
-      track: 'Level 8 Block E',
+      track: 'Level 8 · Block E',
       start: '2025-11-01T08:00:00+08:00',
       end: '2025-11-01T09:00:00+08:00',
       room: 'Level 8, Block E',
-      location: 'Registration Zone',
+      location: 'Registration Zone, Level 8',
       description: 'Check in for The Actuarial Summit 2025 and collect event materials before the day begins.',
       speakers: [],
       resources: []
@@ -68,11 +68,11 @@ const eventData = {
     {
       id: 'S-OPEN',
       title: 'Opening Ceremony',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T09:00:00+08:00',
       end: '2025-11-01T09:05:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'Official opening of The Actuarial Summit 2025 in Auditorium 1.',
       speakers: [],
       resources: []
@@ -80,11 +80,11 @@ const eventData = {
     {
       id: 'S-ANTHEM',
       title: 'National Anthem',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T09:05:00+08:00',
       end: '2025-11-01T09:10:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'The summit opens with the national anthem in Auditorium 1.',
       speakers: [],
       resources: []
@@ -92,11 +92,11 @@ const eventData = {
     {
       id: 'S-DOA',
       title: 'Doa Recitation',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T09:10:00+08:00',
       end: '2025-11-01T09:15:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'A doa recitation sets the tone for a reflective and collaborative summit.',
       speakers: [],
       resources: []
@@ -104,11 +104,11 @@ const eventData = {
     {
       id: 'S-SPEECH-YB',
       title: 'Opening Speech by YB Dato Seri DiRaja Dr. Zambry Abdul Kadir',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T09:15:00+08:00',
       end: '2025-11-01T09:25:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'Opening speech delivered by YB Dato Seri DiRaja Dr. Zambry Abdul Kadir, Minister of Higher Education (Malaysia).',
       speakers: ['SP-YB'],
       resources: []
@@ -116,11 +116,11 @@ const eventData = {
     {
       id: 'S-SPEECH-PARMJIT',
       title: 'Opening Speech by Datuk Parmjit Singh',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T09:25:00+08:00',
       end: '2025-11-01T09:35:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'Datuk Parmjit Singh shares a welcome from Asia Pacific University of Technology & Innovation (APU).',
       speakers: ['SP-DATUK'],
       resources: []
@@ -128,11 +128,11 @@ const eventData = {
     {
       id: 'S-SPEECH-IFOA',
       title: 'Speech by IFoA President',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T09:35:00+08:00',
       end: '2025-11-01T09:45:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'Institute and Faculty of Actuaries (IFoA) President addresses students and industry guests.',
       speakers: ['SP-IFOA'],
       resources: []
@@ -140,11 +140,11 @@ const eventData = {
     {
       id: 'S-SPEECH-ASM',
       title: 'Speech by ASM President',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T09:45:00+08:00',
       end: '2025-11-01T09:55:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'Actuarial Society of Malaysia (ASM) President shares closing remarks for the morning address block.',
       speakers: ['SP-ASM'],
       resources: []
@@ -152,11 +152,11 @@ const eventData = {
     {
       id: 'S-GIMMICK',
       title: 'Execution of Gimmick',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T09:55:00+08:00',
       end: '2025-11-01T10:05:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'Ceremonial gimmick to officially signal the start of the summit.',
       speakers: [],
       resources: []
@@ -164,11 +164,11 @@ const eventData = {
     {
       id: 'S-VIDEO',
       title: 'Opening Ceremony Video',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T10:05:00+08:00',
       end: '2025-11-01T10:10:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'Opening ceremony video presentation for The Actuarial Summit 2025.',
       speakers: [],
       resources: []
@@ -176,11 +176,11 @@ const eventData = {
     {
       id: 'S-AWARD',
       title: 'Industry Contribution Award',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T10:10:00+08:00',
       end: '2025-11-01T10:20:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'Recognition of industry contributions before the afternoon programming begins.',
       speakers: [],
       resources: []
@@ -188,11 +188,11 @@ const eventData = {
     {
       id: 'S-REFRESH',
       title: 'Refreshment Break',
-      track: 'Level 8 Block E',
+      track: 'Level 8 · Block E',
       start: '2025-11-01T10:20:00+08:00',
       end: '2025-11-01T10:50:00+08:00',
       room: 'Level 8, Block E',
-      location: 'Refreshment Area',
+      location: 'Refreshment Area, Level 8',
       description: 'Refreshment break on Level 8, Block E for all attendees and VIP guests.',
       speakers: [],
       resources: []
@@ -200,11 +200,11 @@ const eventData = {
     {
       id: 'S-CEO',
       title: 'CEO Roundtable',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T10:50:00+08:00',
       end: '2025-11-01T11:20:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: 'Executive leaders convene in Auditorium 1 for the CEO Roundtable ahead of the climate discussion.',
       speakers: [],
       resources: []
@@ -212,11 +212,11 @@ const eventData = {
     {
       id: 'S-PANEL',
       title: 'Panel Discussion: Climate Change & the Insurance Industry',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T11:20:00+08:00',
       end: '2025-11-01T12:25:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: `Professionals from the insurance industry share insights on current climate change impacts, explore emerging trends and challenges, and host an interactive Q&A followed by networking with participants.`,
       speakers: [],
       resources: [],
@@ -225,11 +225,11 @@ const eventData = {
     {
       id: 'S-CAREER-INSIGHT',
       title: 'Career Insight Session',
-      track: 'Auditorium 1 Programme',
+      track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T11:45:00+08:00',
       end: '2025-11-01T12:30:00+08:00',
-      room: 'Auditorium 1',
-      location: 'Main Hall',
+      room: 'Auditorium 1 (Level 7)',
+      location: 'Main Hall, Level 7',
       description: `Actuarial professionals share career journeys across traditional and non-traditional roles, highlight global opportunities, and engage students through open Q&A discussions.`,
       speakers: [],
       resources: [],
@@ -238,11 +238,11 @@ const eventData = {
     {
       id: 'S-DATATHON',
       title: 'Datathon: The ActuaData',
-      track: 'Auditorium 5',
+      track: 'Auditorium 5 · Level 3',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
-      room: 'Auditorium 5',
-      location: 'Competition Hall',
+      room: 'Auditorium 5 (Level 3)',
+      location: 'Competition Hall, Level 3',
       description: `Undergraduate teams across Malaysia solve real-world general insurance challenges, submit code, and present findings with support from an accompanying Power BI workshop.`,
       speakers: [],
       resources: [],
@@ -251,11 +251,11 @@ const eventData = {
     {
       id: 'S-HR-TALK',
       title: "HR Talk on Do's and Don'ts & Grooming Session",
-      track: 'Auditorium 4',
+      track: 'Auditorium 4 · Level 3',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
-      room: 'Auditorium 4',
-      location: 'Auditorium 4',
+      room: 'Auditorium 4 (Level 3)',
+      location: 'Auditorium 4, Level 3',
       description: "HR professionals provide guidance on workplace behaviour, communication, interview etiquette, and grooming expectations for aspiring actuaries.",
       speakers: [],
       resources: []
@@ -263,11 +263,11 @@ const eventData = {
     {
       id: 'S-HR-INTERVIEW',
       title: 'HR Interview Simulation',
-      track: 'Level 4 Block B',
+      track: 'Level 4 · Block B',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
       room: 'Level 4, Block B Classrooms',
-      location: 'Interview Rooms',
+      location: 'Interview Rooms, Level 4',
       description: 'Structured mock interviews provide actuarial students with personalised feedback from HR representatives and actuaries ahead of internship and job applications.',
       speakers: [],
       resources: []
@@ -275,11 +275,11 @@ const eventData = {
     {
       id: 'S-MENTOR',
       title: 'Mentor Hot Seat',
-      track: 'Atrium',
+      track: 'Atrium · Level 3',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
-      room: 'Atrium',
-      location: 'Mentor Stations',
+      room: 'Atrium (Level 3)',
+      location: 'Mentor Stations, Level 3',
       description: 'Rotational conversations connect students with working actuaries for concise career guidance, industry insights, and networking opportunities.',
       speakers: [],
       resources: [],
@@ -288,11 +288,11 @@ const eventData = {
     {
       id: 'S-CAREER-FAIR',
       title: 'Career Fair',
-      track: 'Atrium',
+      track: 'Atrium · Level 3',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
-      room: 'Atrium',
-      location: 'Career Fair Booths',
+      room: 'Atrium (Level 3)',
+      location: 'Career Fair Booths, Level 3',
       description: 'Companies host booths to discuss internships, job opportunities, and working cultures with actuarial students.',
       speakers: [],
       resources: []
@@ -300,11 +300,11 @@ const eventData = {
     {
       id: 'S-POSTER',
       title: 'Poster Competition',
-      track: 'Atrium',
+      track: 'Atrium · Level 3',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
-      room: 'Atrium',
-      location: 'Poster Displays',
+      room: 'Atrium (Level 3)',
+      location: 'Poster Displays, Level 3',
       description: 'Students showcase actuarial research and innovations on partition boards with judging and participant voting.',
       speakers: [],
       resources: []
@@ -324,11 +324,11 @@ const eventData = {
     {
       id: 'S-PHOTO',
       title: 'Photo Booth (Professional & Fun)',
-      track: 'Atrium',
+      track: 'Atrium · Level 3',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
-      room: 'Atrium',
-      location: 'Photo Booth Area',
+      room: 'Atrium (Level 3)',
+      location: 'Photo Booth Area, Level 3',
       description: 'Professional and fun photo booth sessions for attendees throughout the afternoon.',
       speakers: [],
       resources: []
@@ -336,11 +336,11 @@ const eventData = {
     {
       id: 'S-TOA',
       title: 'TOA Presentation and Prize Giving Ceremony',
-      track: 'Atrium',
+      track: 'Atrium · Level 3',
       start: '2025-11-01T16:30:00+08:00',
       end: '2025-11-01T17:00:00+08:00',
-      room: 'Atrium',
-      location: 'Main Stage',
+      room: 'Atrium (Level 3)',
+      location: 'Main Stage, Level 3',
       description: 'Presentation of results and prizes for summit competitions at the Atrium stage.',
       speakers: [],
       resources: []
@@ -348,11 +348,11 @@ const eventData = {
     {
       id: 'S-CLOSING',
       title: 'Lucky Draw & Closing',
-      track: 'Atrium',
+      track: 'Atrium · Level 3',
       start: '2025-11-01T17:00:00+08:00',
       end: '2025-11-01T17:30:00+08:00',
-      room: 'Atrium',
-      location: 'Main Stage',
+      room: 'Atrium (Level 3)',
+      location: 'Main Stage, Level 3',
       description: 'Lucky draw and closing remarks to conclude The Actuarial Summit 2025.',
       speakers: [],
       resources: []
@@ -401,43 +401,43 @@ const eventData = {
       },
       {
         id: 'POI-AUD1',
-        name: 'Auditorium 1',
+        name: 'Auditorium 1 (Level 7)',
         type: 'stage',
         coordinates: { x: 18, y: 28 },
         hours: '9:00 AM – 12:30 PM',
-        notes: 'Opening ceremony, speeches, CEO roundtable, and climate-focused sessions.'
+        notes: 'Level 7 opening ceremony, speeches, CEO roundtable, and climate-focused sessions.'
       },
       {
         id: 'POI-AUD5',
-        name: 'Auditorium 5',
+        name: 'Auditorium 5 (Level 3)',
         type: 'stage',
         coordinates: { x: 15, y: 48 },
         hours: '12:30 PM – 4:30 PM',
-        notes: 'Datathon: The ActuaData programming and analytics challenges.'
+        notes: 'Level 3 Datathon venue for The ActuaData programming and analytics challenges.'
       },
       {
         id: 'POI-AUD4',
-        name: 'Auditorium 4',
+        name: 'Auditorium 4 (Level 3)',
         type: 'stage',
         coordinates: { x: 33, y: 50 },
         hours: '12:30 PM – 4:30 PM',
-        notes: "Hosts the HR Talk on Do's and Don'ts & Grooming Session."
+        notes: "Level 3 hub hosting the HR Talk on Do's and Don'ts & Grooming Session."
       },
       {
         id: 'POI-ATRIUM',
-        name: 'Atrium',
+        name: 'Atrium (Level 3)',
         type: 'support',
         coordinates: { x: 50, y: 35 },
         hours: '12:30 PM – 5:30 PM',
-        notes: 'Career Fair, Mentor Hot Seat, Poster Competition, photo booth, and prize giving.'
+        notes: 'Career Fair, Mentor Hot Seat, Poster Competition, photo booth, and prize giving across Level 3.'
       },
       {
         id: 'POI-CAFETERIA',
-        name: 'Cafeteria',
+        name: 'Cafeteria (Level 3)',
         type: 'dining',
         coordinates: { x: 52, y: 72 },
         hours: 'Lunch service 12:30 PM',
-        notes: 'Lunch service and packed meals for participants during the summit.'
+        notes: 'Level 3 cafeteria serving lunch and packed meals for participants during the summit.'
       },
       {
         id: 'POI-BLOCKB',
@@ -460,16 +460,16 @@ const eventData = {
   logistics: {
     travel: [
       'Registration begins at 8:00 AM on Level 8, Block E at the APU Campus.',
-      'Opening ceremony, keynote addresses, and leadership forums take place in Auditorium 1.',
-      'Campus visit with APU Student Services departs from the Atrium at 12:30 PM.'
+      'Opening ceremony, keynote addresses, and leadership forums take place in Auditorium 1 (Level 7).',
+      'Campus visit with APU Student Services departs from the Atrium (Level 3) at 12:30 PM.'
     ],
     onsite: [
       'Refreshment break is served at Level 8, Block E at 10:20 AM.',
-      'Mentor Hot Seat, Career Fair, Poster Competition, and the photo booth fill the Atrium from 12:30 PM to 4:30 PM.',
+      'Mentor Hot Seat, Career Fair, Poster Competition, and the photo booth fill the Atrium (Level 3) from 12:30 PM to 4:30 PM.',
       'HR Interview Simulation runs on Level 4, Block B with one-on-one feedback from 12:30 PM to 4:30 PM.'
     ],
     dining: [
-      'Lunch is hosted at the cafeteria with service beginning at 12:30 PM.',
+      'Lunch is hosted at the cafeteria (Level 3) with service beginning at 12:30 PM.',
       'Packed lunch is prepared for 600 participants alongside refreshments for helpers and VIP guests.',
       'Mineral water and breakfast support are allocated for helpers, committees, and attendees throughout the day.'
     ],
@@ -521,26 +521,31 @@ Beacons: <a href="https://beacons.ai/tacs25?__v=t1758436114774" target="_blank" 
 #TACS2025 #AdvancingActuarialExcellence #RegistrationOpen
     `
   },
-  contact: [
-    { label: 'Project Director', value: 'Ngiam Ker Jean', href: null },
-    { label: 'APU Actuarial Science Club President', value: 'Peyton Ong', href: null },
-    { label: 'IFoA Student Ambassador Committee (Southeast Asia) President', value: 'Sharveshini A/P Saravanan', href: null },
-    { label: 'IFoA Business Development Manager (Southeast Asia)', value: 'Natasha Noor', href: null },
-    { label: 'IFoA Regional Manager (Southeast Asia)', value: 'Prisheeni Prakas', href: null },
-    { label: 'Head of School, SOMAQS', value: 'Assoc. Prof. Dr. Rajasegeran Ramasamy', href: null },
-    { label: 'APU Vice Chancellor', value: 'Prof. Dr. Ho Chin Kuan', href: null },
-    { label: 'APU Chief Operating Officer', value: 'Mr Gurpardeep Singh', href: null }
-  ],
+  footer: {
+    quickLinks: [
+      { label: 'Landing', href: '#landing' },
+      { label: 'About', href: '#about' },
+      { label: 'Schedule & Map', href: '#schedule' },
+      { label: 'Venue Logistics', href: '#logistics' },
+      { label: 'Community & Legacy', href: '#community' }
+    ],
+    pageLinks: [
+      { label: 'Featured Programmes', href: '#featured' },
+      { label: 'Register Now', href: 'https://forms.office.com/e/PQkpt7dnsL' },
+      { label: 'Venue Map', href: '#mapCanvas' },
+      { label: 'Newsletter Signup', href: '#footerEmail' }
+    ]
+  },
   socialLinks: [
-    {
-      label: 'Register for The Actuarial Summit 2025',
-      icon: '📝',
-      url: 'https://forms.office.com/e/PQkpt7dnsL'
-    },
     {
       label: 'Instagram: @theactuarialsummit2025',
       icon: '📸',
       url: 'https://www.instagram.com/theactuarialsummit2025'
+    },
+    {
+      label: 'LinkedIn: The Actuarial Summit 2025',
+      icon: 'in',
+      url: 'https://www.linkedin.com/in/the-actuarial-summit-597489371/'
     },
     {
       label: 'Email theactuarialsummit@gmail.com',
@@ -697,22 +702,26 @@ const renderAbout = () => {
   const faqLink = document.getElementById('faqLink');
   const codeOfConduct = document.getElementById('codeOfConduct');
 
-  if (eventData.links.faq) {
-    faqLink.href = eventData.links.faq;
-    faqLink.removeAttribute('aria-disabled');
-  } else {
-    faqLink.removeAttribute('href');
-    faqLink.textContent = 'FAQ (coming soon)';
-    faqLink.setAttribute('aria-disabled', 'true');
+  if (faqLink) {
+    if (eventData.links.faq) {
+      faqLink.href = eventData.links.faq;
+      faqLink.removeAttribute('aria-disabled');
+    } else {
+      faqLink.removeAttribute('href');
+      faqLink.textContent = 'FAQ (coming soon)';
+      faqLink.setAttribute('aria-disabled', 'true');
+    }
   }
 
-  if (eventData.links.codeOfConduct) {
-    codeOfConduct.href = eventData.links.codeOfConduct;
-    codeOfConduct.removeAttribute('aria-disabled');
-  } else {
-    codeOfConduct.removeAttribute('href');
-    codeOfConduct.textContent = 'Code of Conduct (coming soon)';
-    codeOfConduct.setAttribute('aria-disabled', 'true');
+  if (codeOfConduct) {
+    if (eventData.links.codeOfConduct) {
+      codeOfConduct.href = eventData.links.codeOfConduct;
+      codeOfConduct.removeAttribute('aria-disabled');
+    } else {
+      codeOfConduct.removeAttribute('href');
+      codeOfConduct.textContent = 'Code of Conduct (coming soon)';
+      codeOfConduct.setAttribute('aria-disabled', 'true');
+    }
   }
 };
 
@@ -920,49 +929,65 @@ const renderCommunity = () => {
 };
 
 const renderFooter = () => {
-  const contactList = document.getElementById('contactMethods');
-  const externalLinks = document.getElementById('footerExternalLinks');
+  const quickList = document.getElementById('footerQuickLinks');
+  const pageList = document.getElementById('footerPageLinks');
+  const socialList = document.getElementById('footerSocialLinks');
   const copyright = document.getElementById('footerCopyright');
 
-  contactList.innerHTML = '';
-  if (eventData.contact.length) {
-    eventData.contact.forEach((method) => {
+  if (quickList) {
+    quickList.innerHTML = '';
+    const quickLinks = eventData.footer?.quickLinks ?? [];
+    quickLinks.forEach((item) => {
       const li = document.createElement('li');
-      if (method.href) {
-        const link = document.createElement('a');
-        link.href = method.href;
-        link.textContent = `${method.label}: ${method.value}`;
-        li.appendChild(link);
-      } else {
-        li.textContent = `${method.label}: ${method.value}`;
-      }
-      contactList.appendChild(li);
+      const link = document.createElement('a');
+      link.href = item.href;
+      link.textContent = item.label;
+      li.appendChild(link);
+      quickList.appendChild(li);
     });
-  } else {
-    const li = document.createElement('li');
-    li.textContent = 'Contact details will be shared soon.';
-    contactList.appendChild(li);
   }
 
-  if (externalLinks) {
-    externalLinks.innerHTML = '';
-    if (eventData.socialLinks.length) {
-      eventData.socialLinks.forEach((social) => {
-        const link = document.createElement('a');
-        link.href = social.url;
+  if (pageList) {
+    pageList.innerHTML = '';
+    const pageLinks = eventData.footer?.pageLinks ?? [];
+    pageLinks.forEach((item) => {
+      const li = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = item.href;
+      link.textContent = item.label;
+      if (item.href.startsWith('http')) {
         link.target = '_blank';
         link.rel = 'noopener';
-        link.className = 'footer-external__link';
-        link.setAttribute('aria-label', social.label);
-        link.title = social.label;
-        link.innerHTML = `<span aria-hidden="true">${social.icon}</span><span class="sr-only">${social.label}</span>`;
-        externalLinks.appendChild(link);
-      });
-    }
+      }
+      li.appendChild(link);
+      pageList.appendChild(li);
+    });
+  }
+
+  if (socialList) {
+    socialList.innerHTML = '';
+    eventData.socialLinks.forEach((social) => {
+      const li = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = social.url;
+      if (social.url.startsWith('http')) {
+        link.target = '_blank';
+        link.rel = 'noopener';
+      }
+      link.title = social.label;
+      link.innerHTML = `
+        <span class="footer-social__icon" aria-hidden="true">${social.icon}</span>
+        <span class="footer-social__label">${social.label}</span>
+      `;
+      li.appendChild(link);
+      socialList.appendChild(li);
+    });
   }
 
   const year = new Date().getFullYear();
-  copyright.textContent = `© ${year} ${eventData.metadata.name}. All rights reserved.`;
+  if (copyright) {
+    copyright.textContent = `© ${year} ${eventData.metadata.name}. All rights reserved.`;
+  }
 };
 
 const initNewsletterForms = () => {
