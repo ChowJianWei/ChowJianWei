@@ -8,7 +8,7 @@ const eventData = {
     timezone: 'Malaysia Time (MYT)',
     venue: 'Asia Pacific University of Technology & Innovation (APU) Campus',
     registrationUrl: 'https://forms.office.com/e/PQkpt7dnsL',
-    livestreamUrl: null,
+    livestreamUrl: 'https://www.instagram.com/theactuarialsummit2025',
     startDate: '2025-11-01T08:00:00+08:00'
   },
   quickFacts: [
@@ -521,108 +521,6 @@ Beacons: <a href="https://beacons.ai/tacs25?__v=t1758436114774" target="_blank" 
 #TACS2025 #AdvancingActuarialExcellence #RegistrationOpen
     `
   },
-  sponsors: [
-    {
-      name: 'WTW',
-      tier: 'Datathon • HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the Datathon, HR Interview Simulation, and Career Fair programmes.'
-    },
-    {
-      name: 'Actomate',
-      tier: 'Datathon',
-      blurb: 'Identified as a potential company for Datathon: The ActuaData.'
-    },
-    {
-      name: 'Etiqa',
-      tier: 'Datathon • HR Talk • HR Interview Simulation • Career Fair',
-      blurb: "Identified as a potential company for the Datathon, HR Talk on Do's and Don'ts & Grooming Session, HR Interview Simulation, and Career Fair."
-    },
-    {
-      name: 'MSIG',
-      tier: 'Datathon',
-      blurb: 'Identified as a potential company for Datathon: The ActuaData.'
-    },
-    {
-      name: 'AIA',
-      tier: 'Datathon • HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the Datathon, HR Interview Simulation, and Career Fair programmes.'
-    },
-    {
-      name: 'RGA',
-      tier: 'Datathon • HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the Datathon, HR Interview Simulation, and Career Fair programmes.'
-    },
-    {
-      name: 'Sunlife',
-      tier: 'HR Talk • HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Talk, HR Interview Simulation, and Career Fair.'
-    },
-    {
-      name: 'Manulife',
-      tier: 'HR Talk • HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Talk, HR Interview Simulation, and Career Fair.'
-    },
-    {
-      name: 'Ernst and Young',
-      tier: 'HR Talk',
-      blurb: 'Identified as a potential company for the HR Talk on Do’s and Don’ts & Grooming Session.'
-    },
-    {
-      name: 'KPMG',
-      tier: 'HR Talk',
-      blurb: 'Identified as a potential company for the HR Talk on Do’s and Don’ts & Grooming Session.'
-    },
-    {
-      name: 'Tokio Marine',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and Career Fair.'
-    },
-    {
-      name: 'Great Eastern',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and Career Fair.'
-    },
-    {
-      name: 'Prudential',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and Career Fair.'
-    },
-    {
-      name: 'Allianz',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and Career Fair.'
-    },
-    {
-      name: 'FWD',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and the Career Fair (FWD Takaful).'
-    },
-    {
-      name: 'AmMetLife',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and Career Fair.'
-    },
-    {
-      name: 'MNRB',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and Career Fair.'
-    },
-    {
-      name: 'Milliman',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and Career Fair.'
-    },
-    {
-      name: 'PwC',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and Career Fair.'
-    },
-    {
-      name: 'Deloitte',
-      tier: 'HR Interview Simulation • Career Fair',
-      blurb: 'Identified as a potential company for the HR Interview Simulation and Career Fair.'
-    }
-  ],
   contact: [
     { label: 'Project Director', value: 'Ngiam Ker Jean', href: null },
     { label: 'APU Actuarial Science Club President', value: 'Peyton Ong', href: null },
@@ -720,17 +618,27 @@ const renderHero = () => {
 
   if (metadata.livestreamUrl) {
     heroWatch.href = metadata.livestreamUrl;
-    navLivestream.addEventListener('click', () => {
-      window.open(metadata.livestreamUrl, '_blank');
-    });
+    heroWatch.target = '_blank';
+    heroWatch.rel = 'noopener';
+    navLivestream.href = metadata.livestreamUrl;
+    navLivestream.target = '_blank';
+    navLivestream.rel = 'noopener';
+    navLivestream.classList.remove('is-disabled');
+    navLivestream.removeAttribute('aria-disabled');
+    navLivestream.removeAttribute('tabindex');
   } else {
     heroWatch.classList.add('is-disabled');
     heroWatch.setAttribute('aria-disabled', 'true');
     heroWatch.removeAttribute('href');
+    heroWatch.removeAttribute('target');
+    heroWatch.removeAttribute('rel');
     heroWatch.tabIndex = -1;
     navLivestream.classList.add('is-disabled');
     navLivestream.setAttribute('aria-disabled', 'true');
-    navLivestream.disabled = true;
+    navLivestream.removeAttribute('href');
+    navLivestream.removeAttribute('target');
+    navLivestream.removeAttribute('rel');
+    navLivestream.setAttribute('tabindex', '-1');
   }
 
   if (!metadata.registrationUrl && !metadata.livestreamUrl && navActions) {
@@ -765,28 +673,6 @@ const renderFeaturedSessions = () => {
       `;
       container.appendChild(card);
     });
-};
-
-const renderSponsors = () => {
-  const strip = document.getElementById('sponsorStrip');
-  strip.innerHTML = '';
-  if (!eventData.sponsors.length) {
-    const note = document.createElement('p');
-    note.textContent = 'Industry partner information will be shared soon.';
-    strip.appendChild(note);
-    return;
-  }
-
-  eventData.sponsors.forEach((sponsor) => {
-    const tile = document.createElement('div');
-    tile.className = 'sponsor-tile';
-    tile.innerHTML = `
-      <div class="sponsor-tier">${sponsor.tier}</div>
-      <strong>${sponsor.name}</strong>
-      <p>${sponsor.blurb}</p>
-    `;
-    strip.appendChild(tile);
-  });
 };
 
 const renderAbout = () => {
@@ -833,13 +719,14 @@ const renderAbout = () => {
 const renderFilters = () => {
   const filters = document.getElementById('scheduleFilters');
   filters.innerHTML = '';
-  const tracks = ['all', ...new Set(eventData.sessions.map((session) => session.track))];
+  const tracks = ['all', 'ongoing', ...new Set(eventData.sessions.map((session) => session.track))];
 
   tracks.forEach((track) => {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'filter-button';
-    button.textContent = track === 'all' ? 'All Tracks' : track;
+    button.textContent =
+      track === 'all' ? 'All Tracks' : track === 'ongoing' ? 'Ongoing Now' : track;
     button.setAttribute('role', 'tab');
     button.dataset.track = track;
     button.setAttribute('aria-selected', track === activeTrack ? 'true' : 'false');
@@ -858,15 +745,31 @@ const renderSchedule = () => {
   const container = document.getElementById('scheduleList');
   container.innerHTML = '';
 
+  const now = new Date();
+
   const sessions = [...eventData.sessions]
     .sort((a, b) => new Date(a.start) - new Date(b.start))
-    .filter((session) => (activeTrack === 'all' ? true : session.track === activeTrack));
+    .filter((session) => {
+      if (activeTrack === 'all') return true;
+      if (activeTrack === 'ongoing') {
+        const start = new Date(session.start);
+        const end = new Date(session.end);
+        return now >= start && now <= end;
+      }
+      return session.track === activeTrack;
+    });
 
   sessions.forEach((session) => {
     const card = document.createElement('article');
     card.className = 'session-card';
     card.tabIndex = 0;
     card.dataset.sessionId = session.id;
+    const start = new Date(session.start);
+    const end = new Date(session.end);
+    const isOngoing = now >= start && now <= end;
+    if (isOngoing) {
+      card.classList.add('is-ongoing');
+    }
     card.innerHTML = `
       <div class="session-track">${session.track}</div>
       <h3>${session.title}</h3>
@@ -981,7 +884,7 @@ const renderCommunity = () => {
   const pastHighlights = document.getElementById('pastHighlights');
   const whyJoin = document.getElementById('whyJoin');
   const volunteer = document.getElementById('volunteer');
-  const social = document.getElementById('social');
+  const announcement = document.getElementById('communityAnnouncement');
 
   highlightIntro.textContent = eventData.community.highlightIntro;
 
@@ -1001,19 +904,24 @@ const renderCommunity = () => {
 
   volunteer.textContent = eventData.community.volunteer;
 
-  if (eventData.community.socialHtml) {
-    const socialHtml = eventData.community.socialHtml.trim().replace(/\n\s+/g, '\n');
-    social.innerHTML = socialHtml;
-  } else if (eventData.community.social) {
-    social.textContent = eventData.community.social;
-  } else {
-    social.textContent = '';
+  if (announcement) {
+    if (eventData.community.socialHtml) {
+      const socialHtml = eventData.community.socialHtml.trim().replace(/\n\s+/g, '\n');
+      announcement.innerHTML = socialHtml;
+      announcement.hidden = false;
+    } else if (eventData.community.social) {
+      announcement.textContent = eventData.community.social;
+      announcement.hidden = false;
+    } else {
+      announcement.innerHTML = '';
+      announcement.hidden = true;
+    }
   }
 };
 
 const renderFooter = () => {
   const contactList = document.getElementById('contactMethods');
-  const socialLinks = document.getElementById('socialLinks');
+  const externalLinks = document.getElementById('footerExternalLinks');
   const copyright = document.getElementById('footerCopyright');
 
   contactList.innerHTML = '';
@@ -1036,22 +944,21 @@ const renderFooter = () => {
     contactList.appendChild(li);
   }
 
-  socialLinks.innerHTML = '';
-  if (eventData.socialLinks.length) {
-    eventData.socialLinks.forEach((social) => {
-      const link = document.createElement('a');
-      link.href = social.url;
-      link.target = '_blank';
-      link.rel = 'noopener';
-      link.className = 'social-link';
-      link.setAttribute('aria-label', social.label);
-      link.textContent = social.icon;
-      socialLinks.appendChild(link);
-    });
-  } else if (eventData.community.social) {
-    const span = document.createElement('span');
-    span.textContent = eventData.community.social;
-    socialLinks.appendChild(span);
+  if (externalLinks) {
+    externalLinks.innerHTML = '';
+    if (eventData.socialLinks.length) {
+      eventData.socialLinks.forEach((social) => {
+        const link = document.createElement('a');
+        link.href = social.url;
+        link.target = '_blank';
+        link.rel = 'noopener';
+        link.className = 'footer-external__link';
+        link.setAttribute('aria-label', social.label);
+        link.title = social.label;
+        link.innerHTML = `<span aria-hidden="true">${social.icon}</span><span class="sr-only">${social.label}</span>`;
+        externalLinks.appendChild(link);
+      });
+    }
   }
 
   const year = new Date().getFullYear();
@@ -1249,7 +1156,6 @@ const init = () => {
   renderHero();
   renderQuickFacts();
   renderFeaturedSessions();
-  renderSponsors();
   renderAbout();
   renderFilters();
   renderSchedule();

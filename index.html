@@ -17,8 +17,7 @@
   <header class="site-header" id="top">
     <div class="nav-wrapper">
       <a class="logo" href="#landing" aria-label="The Actuarial Summit 2025 home">
-        <span class="logo-mark">APU</span>
-        <span class="logo-text">Actuarial Summit 2025</span>
+        <span class="logo-text">The Actuarial Summit 2025</span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="primaryNav">
         <span class="sr-only">Toggle navigation</span>
@@ -36,7 +35,7 @@
         </ul>
         <div class="nav-actions" id="navActions">
           <a class="btn btn-primary" id="navRegister" href="#">Register</a>
-          <button class="btn btn-secondary" id="navLivestream" type="button">Livestream</button>
+          <a class="btn btn-secondary" id="navLivestream" href="#">Watch Live</a>
         </div>
       </nav>
     </div>
@@ -76,12 +75,6 @@
         </div>
       </section>
 
-      <section class="section-alt sponsors">
-        <div class="container">
-          <h2 class="section-title">Industry Partners &amp; Supporters</h2>
-          <div class="sponsor-strip" id="sponsorStrip"></div>
-        </div>
-      </section>
     </section>
 
     <section id="about" class="section">
@@ -170,11 +163,8 @@
             <h3>Volunteer Support</h3>
             <p id="volunteer"></p>
           </article>
-          <article class="community-card">
-            <h3>Stay Connected</h3>
-            <p id="social"></p>
-          </article>
         </div>
+        <article class="community-announcement" id="communityAnnouncement" aria-live="polite" hidden></article>
         <div class="cta-banner">
           <h3>Want to stay in the loop?</h3>
           <form class="newsletter-form">
@@ -203,15 +193,12 @@
           <h3>Contact</h3>
           <ul class="footer-links" id="contactMethods"></ul>
         </div>
-        <div>
-          <h3>Stay Connected</h3>
-          <div class="social-links" id="socialLinks"></div>
-        </div>
       </div>
     </div>
     <div class="footer-bottom">
       <div class="container footer-bottom-inner">
         <p id="footerCopyright"></p>
+        <div class="footer-external" id="footerExternalLinks" aria-label="External links"></div>
         <form class="footer-newsletter">
           <label class="sr-only" for="footerEmail">Email address</label>
           <input id="footerEmail" type="email" placeholder="Newsletter signup" required />
