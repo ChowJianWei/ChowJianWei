@@ -199,13 +199,13 @@ const eventData = {
     },
     {
       id: 'S-CEO',
-      title: 'CEO Roundtable',
+      title: 'C-Suite Panel: From Technical to Transformational – Actuaries as Business Leaders',
       track: 'Auditorium 1 · Level 7',
       start: '2025-11-01T10:50:00+08:00',
       end: '2025-11-01T11:20:00+08:00',
       room: 'Auditorium 1 (Level 7)',
       location: 'Main Hall, Level 7',
-      description: 'Executive leaders convene in Auditorium 1 for the CEO Roundtable ahead of the climate discussion.',
+      description: `Executive leaders explore how actuaries evolve from technical experts into transformational business leaders in this C-Suite panel.`,
       speakers: [],
       resources: []
     },
@@ -237,13 +237,13 @@ const eventData = {
     },
     {
       id: 'S-DATATHON',
-      title: 'Datathon: The ActuaData',
+      title: 'Datathon: RiskStorm',
       track: 'Auditorium 5 · Level 3',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
       room: 'Auditorium 5 (Level 3)',
       location: 'Competition Hall, Level 3',
-      description: `Undergraduate teams across Malaysia solve real-world general insurance challenges, submit code, and present findings with support from an accompanying Power BI workshop.`,
+      description: `Undergraduate teams from across Malaysia tackle general insurance challenges, analyse datasets, and present findings during the RiskStorm finals with Power BI support.`,
       speakers: [],
       resources: [],
       featured: true
@@ -405,7 +405,7 @@ const eventData = {
         type: 'stage',
         coordinates: { x: 18, y: 28 },
         hours: '9:00 AM – 12:30 PM',
-        notes: 'Level 7 opening ceremony, speeches, CEO roundtable, and climate-focused sessions.'
+        notes: 'Level 7 opening ceremony, speeches, C-Suite panel, and climate-focused sessions.'
       },
       {
         id: 'POI-AUD5',
@@ -413,7 +413,7 @@ const eventData = {
         type: 'stage',
         coordinates: { x: 15, y: 48 },
         hours: '12:30 PM – 4:30 PM',
-        notes: 'Level 3 Datathon venue for The ActuaData programming and analytics challenges.'
+        notes: 'Level 3 Datathon venue for the RiskStorm programming and analytics finals.'
       },
       {
         id: 'POI-AUD4',
