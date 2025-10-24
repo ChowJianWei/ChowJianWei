@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Actuarial Summit 2025</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#landing">Skip to main content</a>
+  <header class="site-header" id="top">
+    <div class="nav-wrapper">
+      <a class="logo" href="#landing" aria-label="The Actuarial Summit 2025 home">
+        <span class="logo-text">The Actuarial Summit 2025</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primaryNav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="primary-nav" id="primaryNav">
+        <ul>
+          <li><a href="#landing">Landing</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#schedule">Schedule &amp; Map</a></li>
+          <li><a href="#logistics">Venue Logistics</a></li>
+          <li><a href="#community">Community</a></li>
+        </ul>
+        <div class="nav-actions" id="navActions">
+          <a class="btn btn-primary btn-cta" data-icon="📝" id="navRegister" href="#"><span class="btn-label">Register</span></a>
+          <a class="btn btn-secondary btn-cta" data-icon="📺" id="navLivestream" href="#"><span class="btn-label">Watch Live</span></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="landing" class="section landing">
+      <div class="container grid-two">
+        <div>
+          <p class="eyebrow" id="eventDate"></p>
+          <h1 id="heroTitle"></h1>
+          <p class="lead" id="heroTagline"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary btn-cta" data-icon="📝" id="heroRegister" href="#">
+            <span class="btn-label">Register Now</span>
+          </a>
+          <a class="btn btn-secondary btn-cta" data-icon="📺" id="heroWatch" href="#">
+            <span class="btn-label">Watch Live</span>
+          </a>
+        </div>
+          <div class="countdown" aria-live="polite">
+            <span class="countdown-label">Event begins in</span>
+            <div class="countdown-values" id="countdown">
+              <div><span data-unit="days">--</span><label>Days</label></div>
+              <div><span data-unit="hours">--</span><label>Hours</label></div>
+              <div><span data-unit="minutes">--</span><label>Minutes</label></div>
+              <div><span data-unit="seconds">--</span><label>Seconds</label></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Quick Facts</h2>
+          <ul id="quickFacts"></ul>
+        </div>
+      </div>
+
+      <section id="featured" class="section-alt">
+        <div class="container">
+          <h2 class="section-title">Featured Programmes</h2>
+          <div class="carousel" id="featuredCarousel">
+            <div class="carousel-track" id="featuredCarouselTrack"></div>
+            <div class="carousel-controls">
+              <button class="carousel-button" id="featuredPrev" type="button" aria-label="Previous programme">&#10094;</button>
+              <button class="carousel-button" id="featuredNext" type="button" aria-label="Next programme">&#10095;</button>
+            </div>
+            <div class="carousel-dots" id="featuredDots"></div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About The Actuarial Summit 2025</h2>
+        <div class="grid-two about-grid">
+          <article class="about-card">
+            <h3><span aria-hidden="true" class="about-icon">🌿</span>Our Mission</h3>
+            <p id="mission"></p>
+            <h3><span aria-hidden="true" class="about-icon">📈</span>Impact</h3>
+            <ul id="impact"></ul>
+          </article>
+          <article class="about-card">
+            <h3><span aria-hidden="true" class="about-icon">🤝</span>Organizers</h3>
+            <ul id="organizers"></ul>
+            <h3><span aria-hidden="true" class="about-icon">🎯</span>Summit Objectives</h3>
+            <div class="accordion" id="objectivesAccordion"></div>
+          </article>
+        </div>
+        <div class="about-accordions">
+          <article class="about-card about-card--wide">
+            <h3><span aria-hidden="true" class="about-icon">💡</span>Summit FAQs</h3>
+            <div class="accordion" id="faqAccordion"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Schedule &amp; Venue Map</h2>
+            <p class="section-subtitle">Browse by track and explore the venue to plan your experience.</p>
+          </div>
+          <div class="filter-group" id="scheduleFilters" role="tablist" aria-label="Track filters"></div>
+        </div>
+        <div class="schedule-layout">
+          <div class="timeline" id="scheduleList" aria-live="polite"></div>
+          <aside class="map-panel">
+            <div class="map-controls" id="mapFloorToggle" role="group" aria-label="Select venue floor"></div>
+            <div class="map-canvas" id="mapCanvas" role="img" aria-live="polite" tabindex="0"></div>
+            <div class="poi-details" aria-live="polite">
+              <h3>Points of Interest</h3>
+              <ul id="poiList"></ul>
+              <div id="poiDetail"></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="programmes" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Programme Spotlights</h2>
+        <p class="section-subtitle">Dive deeper into each interactive experience running throughout the summit.</p>
+        <div class="accordion-grid">
+          <div class="accordion" id="programmeAccordion"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="logistics" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Venue Logistics</h2>
+        <div class="grid-three logistics-grid">
+          <div>
+            <h3>Travel &amp; Arrival</h3>
+            <ul id="travel"></ul>
+          </div>
+          <div>
+            <h3>On-site Services</h3>
+            <ul id="onsite"></ul>
+          </div>
+          <div>
+            <h3>Dining &amp; Hotels</h3>
+            <ul id="dining"></ul>
+          </div>
+        </div>
+        <div class="alert" id="emergency"></div>
+      </div>
+    </section>
+
+    <section id="community" class="section">
+      <div class="container">
+        <h2 class="section-title">Community &amp; Legacy</h2>
+        <div class="community-grid">
+          <article class="community-card">
+            <h3>Highlights from Actuarial Day 2024</h3>
+            <p id="highlightIntro"></p>
+            <ul id="pastHighlights"></ul>
+          </article>
+          <article class="community-card">
+            <h3>Why Join the Summit</h3>
+            <ul id="whyJoin"></ul>
+          </article>
+          <article class="community-card">
+            <h3>Volunteer Support</h3>
+            <p id="volunteer"></p>
+          </article>
+          <article class="community-card">
+            <h3>Future Partner Tiers</h3>
+            <ul id="partnerTiers" class="partner-tier-list"></ul>
+          </article>
+        </div>
+        <article class="community-announcement" id="communityAnnouncement" aria-live="polite" hidden></article>
+        <div class="cta-banner">
+          <h3>Want to stay in the loop?</h3>
+          <form class="newsletter-form">
+            <label class="sr-only" for="newsletterEmail">Email address</label>
+            <input id="newsletterEmail" type="email" name="email" placeholder="you@example.com" required />
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div>
+          <h3>Quick Links</h3>
+          <ul class="footer-links" id="footerQuickLinks"></ul>
+        </div>
+        <div>
+          <h3>Pages</h3>
+          <ul class="footer-links" id="footerPageLinks"></ul>
+        </div>
+        <div>
+          <h3>Our Socials</h3>
+          <ul class="footer-social" id="footerSocialLinks"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p id="footerCopyright"></p>
+        <form class="footer-newsletter">
+          <label class="sr-only" for="footerEmail">Email address</label>
+          <input id="footerEmail" type="email" placeholder="Newsletter signup" required />
+          <button class="btn btn-secondary" type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+  <div class="session-overlay" id="sessionOverlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="session-overlay__backdrop"></div>
+    <div class="session-overlay__content" role="document">
+      <button class="session-overlay__close" id="closeOverlay" aria-label="Close session details">&times;</button>
+      <div class="session-overlay__body">
+        <p class="eyebrow" id="overlayTrack"></p>
+        <h3 id="overlayTitle"></h3>
+        <p class="overlay-time" id="overlayTime"></p>
+        <p class="overlay-location" id="overlayLocation"></p>
+        <p id="overlayDescription"></p>
+        <div class="overlay-speakers">
+          <h4>Speakers</h4>
+          <ul id="overlaySpeakers"></ul>
+        </div>
+        <div class="overlay-resources">
+          <h4>Resources</h4>
+          <ul id="overlayResources"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

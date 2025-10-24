@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+  <defs>
+    <linearGradient id="levelGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#101a2c" />
+      <stop offset="100%" stop-color="#1f2f4f" />
+    </linearGradient>
+    <linearGradient id="hallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5c6cff" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#00d1b2" stop-opacity="0.35" />
+    </linearGradient>
+    <style>
+      .zone {
+        fill: url(#hallGradient);
+        stroke: rgba(255,255,255,0.35);
+        stroke-width: 2;
+        rx: 18;
+        ry: 18;
+      }
+      .label {
+        fill: #f5f7ff;
+        font-family: 'Inter', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .sub-label {
+        fill: #b6c3ff;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .connector {
+        stroke: rgba(255,255,255,0.25);
+        stroke-width: 2.5;
+        stroke-dasharray: 6 10;
+      }
+      .note {
+        fill: rgba(255,255,255,0.08);
+        stroke: rgba(255,255,255,0.22);
+        stroke-width: 1.5;
+        rx: 14;
+        ry: 14;
+      }
+      .note-text {
+        fill: #f5f7ff;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <rect width="960" height="640" fill="url(#levelGradient)" />
+
+  <!-- Auditorium 1 -->
+  <rect class="zone" x="160" y="120" width="420" height="260" />
+  <text class="label" x="370" y="200" text-anchor="middle">Auditorium 1</text>
+  <text class="sub-label" x="370" y="240" text-anchor="middle">Opening Ceremony • Panels</text>
+
+  <!-- VIP Lounge -->
+  <rect class="zone" x="640" y="140" width="190" height="140" />
+  <text class="label" x="735" y="200" text-anchor="middle">VIP Lounge</text>
+  <text class="sub-label" x="735" y="235" text-anchor="middle">Speaker Holding</text>
+
+  <!-- Collaboration Pods -->
+  <rect class="zone" x="620" y="320" width="220" height="110" />
+  <text class="label" x="730" y="380" text-anchor="middle">Collaboration Pods</text>
+  <text class="sub-label" x="730" y="410" text-anchor="middle">Media &amp; Interview Nooks</text>
+
+  <!-- Lift & Access Core -->
+  <rect class="zone" x="120" y="420" width="180" height="120" />
+  <text class="label" x="210" y="480" text-anchor="middle">Lift Lobby</text>
+  <text class="sub-label" x="210" y="510" text-anchor="middle">Access to Blocks D &amp; E</text>
+
+  <!-- Connectors -->
+  <line class="connector" x1="580" y1="250" x2="640" y2="210" />
+  <line class="connector" x1="580" y1="320" x2="620" y2="360" />
+  <line class="connector" x1="300" y1="380" x2="300" y2="420" />
+
+  <!-- Notes -->
+  <rect class="note" x="40" y="520" width="360" height="80" />
+  <text class="note-text" x="60" y="555">• Level 7 Block E connects directly to Atrium via lift lobby</text>
+  <text class="note-text" x="60" y="585">• Follow signage for overflow lounges and media pods</text>
+</svg>
