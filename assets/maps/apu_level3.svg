@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#060b16" />
+    </linearGradient>
+    <style>
+      .zone { fill: #1c2742; stroke: #3a4a6b; stroke-width: 3; }
+      .accent { fill: rgba(92, 108, 255, 0.22); }
+      .connector { stroke: rgba(92, 108, 255, 0.4); stroke-width: 4; stroke-dasharray: 10 12; fill: none; }
+      .title { font-family: 'Space Grotesk', 'Inter', sans-serif; font-size: 42px; font-weight: 600; fill: #f5f7ff; }
+      .subtitle { font-family: 'Inter', sans-serif; font-size: 20px; letter-spacing: 0.32em; text-transform: uppercase; fill: rgba(255, 255, 255, 0.55); }
+      .label { font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 600; fill: #f5f7ff; }
+      .detail { font-family: 'Inter', sans-serif; font-size: 18px; fill: rgba(255, 255, 255, 0.74); }
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgGradient)" rx="40" />
+  <rect x="40" y="120" width="1120" height="620" class="accent" rx="44" />
+  <text class="subtitle" x="60" y="90">APU CAMPUS</text>
+  <text class="title" x="60" y="140">Level 3 Activity Map</text>
+
+  <g transform="translate(120 200)">
+    <rect class="zone" width="220" height="160" rx="26" ry="26" />
+    <text class="label" x="22" y="60">Level 3 Block A</text>
+    <text class="detail" x="22" y="98">Registration Counters</text>
+    <text class="detail" x="22" y="132">Event Check-in</text>
+  </g>
+
+  <g transform="translate(390 200)">
+    <rect class="zone" width="260" height="160" rx="26" ry="26" />
+    <text class="label" x="22" y="60">Lobby &amp; PG Lounge</text>
+    <text class="detail" x="22" y="98">VIP Arrival • 8:30 AM</text>
+    <text class="detail" x="22" y="132">Refreshments • 10:20 AM</text>
+  </g>
+
+  <g transform="translate(700 200)">
+    <rect class="zone" width="220" height="160" rx="26" ry="26" />
+    <text class="label" x="22" y="60">Atrium</text>
+    <text class="detail" x="22" y="98">Career Fair • Poster Competition</text>
+    <text class="detail" x="22" y="132">Mentor Hot Seat • Photo Booth</text>
+  </g>
+
+  <g transform="translate(950 200)">
+    <rect class="zone" width="130" height="160" rx="26" ry="26" />
+    <text class="label" transform="translate(105 132) rotate(-90)">Atrium Stage</text>
+  </g>
+
+  <g transform="translate(120 400)">
+    <rect class="zone" width="220" height="150" rx="26" ry="26" />
+    <text class="label" x="22" y="58">Auditorium 5</text>
+    <text class="detail" x="22" y="98">Datathon: RiskStorm</text>
+    <text class="detail" x="22" y="132">12:30 PM – 4:30 PM</text>
+  </g>
+
+  <g transform="translate(370 400)">
+    <rect class="zone" width="200" height="150" rx="26" ry="26" />
+    <text class="label" x="22" y="58">Auditorium 4</text>
+    <text class="detail" x="22" y="98">HR Talk &amp; Grooming</text>
+    <text class="detail" x="22" y="132">12:30 PM – 4:30 PM</text>
+  </g>
+
+  <g transform="translate(600 400)">
+    <rect class="zone" width="210" height="150" rx="26" ry="26" />
+    <text class="label" x="22" y="58">Level 4 Block B</text>
+    <text class="detail" x="22" y="98">HR Interview Simulation</text>
+    <text class="detail" x="22" y="132">12:30 PM – 4:30 PM</text>
+  </g>
+
+  <g transform="translate(840 400)">
+    <rect class="zone" width="220" height="150" rx="26" ry="26" />
+    <text class="label" x="22" y="58">Cafeteria</text>
+    <text class="detail" x="22" y="98">Lunch Service</text>
+    <text class="detail" x="22" y="132">12:30 PM</text>
+  </g>
+
+  <g transform="translate(700 580)">
+    <rect class="zone" width="360" height="140" rx="26" ry="26" />
+    <text class="label" x="26" y="58">Campus Visit Hub</text>
+    <text class="detail" x="26" y="98">Student Services Meet-up • 12:30 PM</text>
+    <text class="detail" x="26" y="132">Guided tours across campus</text>
+  </g>
+
+  <path class="connector" d="M250 280 C 320 280, 340 280, 380 280" />
+  <path class="connector" d="M520 280 C 580 280, 640 280, 710 280" />
+  <path class="connector" d="M820 280 C 880 280, 930 280, 990 280" />
+  <path class="connector" d="M440 480 C 500 480, 560 480, 620 480" />
+  <path class="connector" d="M660 480 C 720 480, 780 480, 840 480" />
+  <path class="connector" d="M880 480 C 940 480, 980 480, 1020 520" />
+</svg>

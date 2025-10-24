@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101a30" />
+      <stop offset="100%" stop-color="#070c18" />
+    </linearGradient>
+    <style>
+      .frame { fill: rgba(92, 108, 255, 0.18); }
+      .zone { fill: #1b2641; stroke: #45567d; stroke-width: 3; }
+      .title { font-family: 'Space Grotesk', 'Inter', sans-serif; font-size: 42px; font-weight: 600; fill: #f5f7ff; }
+      .subtitle { font-family: 'Inter', sans-serif; font-size: 20px; letter-spacing: 0.32em; text-transform: uppercase; fill: rgba(255, 255, 255, 0.55); }
+      .label { font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 600; fill: #f5f7ff; }
+      .detail { font-family: 'Inter', sans-serif; font-size: 18px; fill: rgba(255, 255, 255, 0.72); }
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bgGradient)" rx="40" />
+  <rect x="60" y="120" width="1080" height="620" class="frame" rx="44" />
+  <text class="subtitle" x="80" y="90">APU CAMPUS</text>
+  <text class="title" x="80" y="140">Level 7 Auditorium Map</text>
+
+  <g transform="translate(150 210)">
+    <rect class="zone" width="420" height="260" rx="30" ry="30" />
+    <text class="label" x="32" y="70">Auditorium 1</text>
+    <text class="detail" x="32" y="110">Opening Ceremony</text>
+    <text class="detail" x="32" y="150">C-Suite Panel: From Technical to Transformational</text>
+    <text class="detail" x="32" y="190">Panel Discussion: Sustainability by Design</text>
+  </g>
+
+  <g transform="translate(620 210)">
+    <rect class="zone" width="340" height="180" rx="28" ry="28" />
+    <text class="label" x="28" y="66">Pre-function Foyer</text>
+    <text class="detail" x="28" y="106">Registration Overflow</text>
+    <text class="detail" x="28" y="140">Networking Lounge</text>
+  </g>
+
+  <g transform="translate(620 420)">
+    <rect class="zone" width="340" height="150" rx="28" ry="28" />
+    <text class="label" x="28" y="60">VIP Holding Room</text>
+    <text class="detail" x="28" y="100">Minister &amp; Guest Briefing</text>
+  </g>
+
+  <g transform="translate(150 520)">
+    <rect class="zone" width="240" height="160" rx="28" ry="28" />
+    <text class="label" x="26" y="70">Backstage</text>
+    <text class="detail" x="26" y="110">Production &amp; AV</text>
+  </g>
+
+  <g transform="translate(420 520)">
+    <rect class="zone" width="240" height="160" rx="28" ry="28" />
+    <text class="label" x="26" y="70">Green Room</text>
+    <text class="detail" x="26" y="110">Speakers &amp; Moderators</text>
+  </g>
+
+  <g transform="translate(980 250)">
+    <rect class="zone" width="120" height="420" rx="28" ry="28" />
+    <text class="label" transform="translate(104 360) rotate(-90)">Lift Lobby</text>
+  </g>
+</svg>
