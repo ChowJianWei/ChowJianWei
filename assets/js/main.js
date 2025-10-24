@@ -48,7 +48,8 @@ const schedule = [
   },
   {
     time: '09:15',
-    title: 'Opening Speech by APU CEO',
+    title:
+      'Welcoming Speech by Datuk Parmjit Singh, Chief Executive Officer (CEO), Asia Pacific University of Technology & Innovation (APU)',
     location: 'Auditorium 1',
     start: '2025-11-01T09:15:00+08:00',
     end: '2025-11-01T09:25:00+08:00',
@@ -66,7 +67,8 @@ const schedule = [
   },
   {
     time: '09:30',
-    title: 'Opening Remarks by Minister of Higher Education',
+    title:
+      "Opening Remarks by YB Dato' Seri DiRaja Dr. Zambry Abdul Kadir, Minister of Higher Education Malaysia",
     location: 'Auditorium 1',
     start: '2025-11-01T09:30:00+08:00',
     end: '2025-11-01T09:45:00+08:00',
@@ -102,7 +104,7 @@ const schedule = [
   },
   {
     time: '10:15',
-    title: 'Token of Appreciation',
+    title: 'Industry Appreciation Award Presentation from APU to the Minister',
     location: 'Auditorium 1',
     start: '2025-11-01T10:15:00+08:00',
     end: '2025-11-01T10:20:00+08:00',
@@ -111,7 +113,7 @@ const schedule = [
   },
   {
     time: '10:20',
-    title: 'Refreshment Break',
+    title: 'Refreshment Break & VIP Refreshments',
     location: 'Lobby & PG Lounge Level 3',
     start: '2025-11-01T10:20:00+08:00',
     end: '2025-11-01T10:45:00+08:00',
@@ -147,7 +149,7 @@ const schedule = [
   },
   {
     time: '12:30',
-    title: 'Datathon: RiskStorm',
+    title: 'Datathon Final Pitching',
     location: 'Auditorium 5',
     start: '2025-11-01T12:30:00+08:00',
     end: '2025-11-01T16:30:00+08:00',
@@ -156,7 +158,7 @@ const schedule = [
   },
   {
     time: '12:30',
-    title: "HR Talk on Do's and Don'ts & Grooming Session",
+    title: 'HR Talk: Your Image, Your Impact – The Unspoken Rule of Professionalism',
     location: 'Auditorium 4',
     start: '2025-11-01T12:30:00+08:00',
     end: '2025-11-01T16:30:00+08:00',
@@ -165,7 +167,7 @@ const schedule = [
   },
   {
     time: '12:30',
-    title: 'HR Interview',
+    title: 'HR Interview Simulation',
     location: 'Level 4 Block B',
     start: '2025-11-01T12:30:00+08:00',
     end: '2025-11-01T16:30:00+08:00',
@@ -183,7 +185,7 @@ const schedule = [
   },
   {
     time: '12:30',
-    title: 'Career Fair',
+    title: 'Career Fair & HR Interview Lounge',
     location: 'Atrium',
     start: '2025-11-01T12:30:00+08:00',
     end: '2025-11-01T16:30:00+08:00',
@@ -218,20 +220,20 @@ const schedule = [
     sessionId: 'S-PHOTO'
   },
   {
-    time: '16:30',
+    time: '16:00',
     title: 'TOA Presentation & Prize Giving Ceremony',
     location: 'Atrium',
-    start: '2025-11-01T16:30:00+08:00',
-    end: '2025-11-01T17:00:00+08:00',
+    start: '2025-11-01T16:00:00+08:00',
+    end: '2025-11-01T16:30:00+08:00',
     category: 'Atrium',
     sessionId: 'S-TOA'
   },
   {
-    time: '17:00',
+    time: '16:30',
     title: 'Lucky Draw Session',
     location: 'Atrium',
-    start: '2025-11-01T17:00:00+08:00',
-    end: '2025-11-01T17:30:00+08:00',
+    start: '2025-11-01T16:30:00+08:00',
+    end: '2025-11-01T17:00:00+08:00',
     category: 'Atrium',
     sessionId: 'S-CLOSING'
   }
@@ -277,7 +279,7 @@ const eventData = {
   mission: `The Actuarial Summit 2025, themed "Advancing Actuarial Excellence for a Sustainable Future," will bring together students, educators, and industry leaders to explore the critical role of actuaries in addressing climate change and advancing Environmental, Social, and Governance (ESG) principles. Through insightful discussions, interactive sessions, and networking opportunities, attendees will gain valuable perspectives on how actuarial expertise can drive sustainability, manage climate-related risks, and shape a resilient future.`,
   impact: [
     'Bridge the gap between students and professionals through panel discussions, career fairs, and the HR Interview experience.',
-    'Apply actuarial skills in real-world challenges through Datathon: RiskStorm and the Poster Competition.',
+    'Apply actuarial skills in real-world challenges through the RiskStorm Datathon Final Pitching and the Poster Competition.',
     'Gain industry insights via the HR Interview and Mentor Hot Seat.',
     'Connect with mentors, recruiters, and industry leaders for career opportunities.'
   ],
@@ -291,7 +293,7 @@ const eventData = {
     {
       title: 'Apply actuarial skills to real briefs',
       description:
-        'Apply actuarial skills in real-world challenges through Datathon: RiskStorm and the Poster Competition, using datasets and case studies from the insurance industry.',
+        'Apply actuarial skills in real-world challenges through the RiskStorm Datathon Final Pitching and the Poster Competition, using datasets and case studies from the insurance industry.',
       icon: '🧮'
     },
     {
@@ -327,8 +329,8 @@ const eventData = {
     },
     {
       question: 'What happens during the afternoon concurrent sessions?',
-      answer:
-        'From 12:30 PM to 4:30 PM attendees can join Datathon: RiskStorm, the HR Talk, HR Interview Simulation, Mentor Hot Seat, Career Fair, Poster Competition, guided Campus Visit, and the Professional Photo Booth.',
+        answer:
+          'From 12:30 PM to 4:30 PM attendees can join the RiskStorm Datathon Final Pitching, the HR Talk, HR Interview Simulation, Mentor Hot Seat, Career Fair & HR Interview Lounge, Poster Competition, guided Campus Visit, and the Professional Photo Booth.',
       icon: '🧭'
     }
   ],
@@ -391,7 +393,8 @@ const eventData = {
     },
     {
       id: 'S-APU-CEO',
-      title: 'Opening Speech by APU CEO',
+      title:
+        'Welcoming Speech by Datuk Parmjit Singh, Chief Executive Officer (CEO), Asia Pacific University of Technology & Innovation (APU)',
       track: 'Auditorium 1',
       start: '2025-11-01T09:15:00+08:00',
       end: '2025-11-01T09:25:00+08:00',
@@ -415,7 +418,8 @@ const eventData = {
     },
     {
       id: 'S-MINISTER',
-      title: 'Opening Remarks by Minister of Higher Education',
+      title:
+        "Opening Remarks by YB Dato' Seri DiRaja Dr. Zambry Abdul Kadir, Minister of Higher Education Malaysia",
       track: 'Auditorium 1',
       start: '2025-11-01T09:30:00+08:00',
       end: '2025-11-01T09:45:00+08:00',
@@ -463,7 +467,7 @@ const eventData = {
     },
     {
       id: 'S-TOKEN',
-      title: 'Token of Appreciation',
+      title: 'Industry Appreciation Award Presentation from APU to the Minister',
       track: 'Auditorium 1',
       start: '2025-11-01T10:15:00+08:00',
       end: '2025-11-01T10:20:00+08:00',
@@ -475,7 +479,7 @@ const eventData = {
     },
     {
       id: 'S-REFRESH',
-      title: 'Refreshment Break',
+      title: 'Refreshment Break & VIP Refreshments',
       track: 'Lobby & PG Lounge Level 3',
       start: '2025-11-01T10:20:00+08:00',
       end: '2025-11-01T10:45:00+08:00',
@@ -513,7 +517,7 @@ const eventData = {
     },
     {
       id: 'S-DATATHON',
-      title: 'Datathon: RiskStorm',
+      title: 'Datathon Final Pitching',
       track: 'Auditorium 5',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
@@ -526,7 +530,7 @@ const eventData = {
     },
     {
       id: 'S-HR-TALK',
-      title: "HR Talk on Do's and Don'ts & Grooming Session",
+      title: 'HR Talk: Your Image, Your Impact – The Unspoken Rule of Professionalism',
       track: 'Auditorium 4',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
@@ -539,7 +543,7 @@ const eventData = {
     },
     {
       id: 'S-HR-INTERVIEW',
-      title: 'HR Interview',
+      title: 'HR Interview Simulation',
       track: 'Level 4 Block B',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
@@ -565,13 +569,13 @@ const eventData = {
     },
     {
       id: 'S-CAREER-FAIR',
-      title: 'Career Fair',
+      title: 'Career Fair & HR Interview Lounge',
       track: 'Atrium',
       start: '2025-11-01T12:30:00+08:00',
       end: '2025-11-01T16:30:00+08:00',
       room: 'Atrium (Level 3)',
       location: 'Career Fair Booths, Atrium',
-      description: 'Meet recruiters, explore internships and full-time opportunities, and discover actuarial career pathways.',
+      description: 'Meet recruiters, explore internships and full-time opportunities, and step into the HR Interview lounge for on-the-spot conversations.',
       speakers: [],
       resources: [],
       featured: true
@@ -619,11 +623,11 @@ const eventData = {
       id: 'S-TOA',
       title: 'TOA Presentation & Prize Giving Ceremony',
       track: 'Atrium',
-      start: '2025-11-01T16:30:00+08:00',
-      end: '2025-11-01T17:00:00+08:00',
+      start: '2025-11-01T16:00:00+08:00',
+      end: '2025-11-01T16:30:00+08:00',
       room: 'Atrium (Level 3)',
       location: 'Main Stage, Atrium',
-      description: 'Celebrate competition winners and recognise outstanding contributions during the evening presentation.',
+      description: 'Celebrate competition winners and recognise outstanding contributions as the summit draws to a close.',
       speakers: [],
       resources: []
     },
@@ -631,8 +635,8 @@ const eventData = {
       id: 'S-CLOSING',
       title: 'Lucky Draw Session',
       track: 'Atrium',
-      start: '2025-11-01T17:00:00+08:00',
-      end: '2025-11-01T17:30:00+08:00',
+      start: '2025-11-01T16:30:00+08:00',
+      end: '2025-11-01T17:00:00+08:00',
       room: 'Atrium (Level 3)',
       location: 'Main Stage, Atrium',
       description: 'Wrap up the summit with closing remarks and the Lucky Draw Session for attendees.',
@@ -670,12 +674,12 @@ const eventData = {
     },
     {
       id: 'S-DATATHON',
-      title: 'Datathon: RiskStorm',
+      title: 'Datathon Final Pitching (RiskStorm)',
       icon: '📊',
       time: '12:30 PM – 4:30 PM',
       location: 'Auditorium 5 (Level 3)',
       summary:
-        'Undergraduate teams from across Malaysia tackle general insurance datasets, progressing from preliminary submissions to finals with Power BI support.',
+        'Undergraduate teams from across Malaysia tackle the RiskStorm brief, presenting final insights and dashboards crafted from real insurance datasets.',
       details: [
         'Understand how actuarial and programming knowledge is applied to real insurance case studies.',
         'Build networks with professionals and fellow students through competition briefing, pitching, and judging feedback.',
@@ -684,7 +688,7 @@ const eventData = {
     },
     {
       id: 'S-HR-TALK',
-      title: "HR Talk on Do's and Don'ts & Grooming Session",
+      title: 'HR Talk: Your Image, Your Impact – The Unspoken Rule of Professionalism',
       icon: '🧠',
       time: '12:30 PM – 4:30 PM',
       location: 'Auditorium 4 (Level 3)',
@@ -726,7 +730,7 @@ const eventData = {
     },
     {
       id: 'S-CAREER-FAIR',
-      title: 'Career Fair',
+      title: 'Career Fair & HR Interview Lounge',
       icon: '💼',
       time: '12:30 PM – 4:30 PM',
       location: 'Atrium (Level 3)',
