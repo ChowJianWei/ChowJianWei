@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actuarial Summit Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 min-h-screen text-slate-100">
+    <header class="border-b border-slate-800 bg-slate-900">
+      <div class="max-w-3xl mx-auto px-4 py-6">
+        <h1 class="text-3xl font-bold">Admin · Actuarial Summit Live Tracker</h1>
+        <p class="text-slate-300 mt-2">
+          Update session statuses to keep attendees informed in real time.
+        </p>
+      </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-4 py-10 space-y-6">
+      <section class="bg-slate-900/80 border border-slate-800 rounded-xl p-6">
+        <div class="flex justify-between flex-col gap-4 sm:flex-row sm:items-center">
+          <h2 class="text-xl font-semibold">Manage Event Status</h2>
+          <a
+            href="/"
+            class="text-sm text-sky-400 hover:text-sky-300 transition-colors"
+            >Back to live view →</a
+          >
+        </div>
+        <div id="admin-events" class="mt-6 space-y-4"></div>
+      </section>
+    </main>
+
+    <template id="admin-event-template">
+      <div class="flex flex-col gap-3 rounded-lg border border-slate-800 bg-slate-950/60 p-4 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h3 class="text-lg font-medium"></h3>
+          <p class="text-sm text-slate-400"></p>
+        </div>
+        <div class="flex items-center gap-3">
+          <label class="text-sm text-slate-300">
+            Status
+            <select class="mt-1 block w-40 rounded-md border border-slate-700 bg-slate-800 p-2 text-slate-100 focus:border-sky-500 focus:outline-none">
+              <option value="Upcoming">Upcoming</option>
+              <option value="Ongoing">Ongoing</option>
+              <option value="Completed">Completed</option>
+            </select>
+          </label>
+          <button class="px-4 py-2 rounded-md bg-sky-600 hover:bg-sky-500 text-sm font-semibold transition-colors">
+            Update
+          </button>
+        </div>
+      </div>
+    </template>
+
+    <script type="module" src="{{ url_for('static', filename='js/admin.js') }}"></script>
+  </body>
+</html>
