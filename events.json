@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "event_name": "Opening Keynote: Future of Risk Modeling",
+    "start_time": "09:00",
+    "end_time": "09:45",
+    "status": "Completed"
+  },
+  {
+    "id": 2,
+    "event_name": "Workshop: Advanced Actuarial Analytics",
+    "start_time": "10:00",
+    "end_time": "11:15",
+    "status": "Ongoing"
+  },
+  {
+    "id": 3,
+    "event_name": "Panel Discussion: Sustainability by Design",
+    "start_time": "11:35",
+    "end_time": "12:10",
+    "status": "Upcoming"
+  },
+  {
+    "id": 4,
+    "event_name": "Networking Lunch",
+    "start_time": "12:15",
+    "end_time": "13:30",
+    "status": "Upcoming"
+  }
+]
